@@ -64,7 +64,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  background-color: blue;
 }
 @media (min-width: 414px) {
   .main-container {
