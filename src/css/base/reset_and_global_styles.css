@@ -73,8 +73,6 @@ body {
 @media (min-width: 1024px) {
   .main-container {
     width: 960px;
-    padding-left: 47px;
-    padding-right: 47px;
   }
 }
 
