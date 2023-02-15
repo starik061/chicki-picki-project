@@ -1,0 +1,28 @@
+:root {
+  --main-background-color: #fffdee;
+  --secondary-background-color: #f0ecd6;
+  --header-gradient: linear-gradient(
+    to bottom,
+    #000000 0%,
+    rgba(0, 0, 0, 0.55) 54.17%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  --big-image-background-color: rgba(0, 0, 0, 0.65);
+  --small-image-background-color: #dadada;
+  /* --homepage-extra-overlay-color: rgba(0, 0, 0, 0.76); */
+  --white-color: #fff;
+  --white-address-color: #e5e5e5;
+  --black-color: #000;
+  --black-transparent-color: rgba(0, 0, 0, 0.4);
+  --black-footer-color: #0e0c07;
+  --yellow-color: #f3c653;
+  --yellow-transparent-color: rgba(243, 198, 83, 0.7);
+  --brown-color: #c79002;
+  --grey-title-color: #494848;
+  --grey-subtitle-color: #b4b4b4;
+  --grey-description-color: #7a7a7a;
+  --grey-secondary-description-color: #bababa;
+  --grey-address-color: #828282;
+  /* --grey-icon-close-color: #d9d9d9; */
+  --grey-modal-color: #808080;
+}
