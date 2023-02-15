@@ -45,3 +45,41 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+@media (min-width: 414px) {
+  .main-container {
+    width: 1024px;
+  }
+}
+@media (min-width: 1024px) {
+  .main-container {
+    width: 1024px;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-container {
+    width: 1280px;
+  }
+}
