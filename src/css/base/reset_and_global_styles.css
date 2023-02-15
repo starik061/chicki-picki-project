@@ -64,22 +64,23 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  background-color: blue;
 }
 @media (min-width: 414px) {
   .main-container {
-    width: 414px;
+    width: 384px;
   }
 }
 @media (min-width: 1024px) {
   .main-container {
-    width: 1024px;
+    width: 960px;
     padding-left: 47px;
     padding-right: 47px;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .main-container {
-    width: 1280px;
+    width: 1140px;
   }
 }
