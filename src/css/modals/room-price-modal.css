@@ -116,6 +116,30 @@ line-height: 24px;
 color: var(--white-color);
 }
 
+.con-output {
+  padding: 18px 12px 8px 18px;
+  width: 348px;
+  height: 28px;
+
+  background-color: transparent;
+  border: 1px solid var(--brown-color);
+}
+
+.output {
+  
+  color: #808080;
+
+  font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+}
+
+
 /* The container must be positioned relative: */
 .custom-select {
 

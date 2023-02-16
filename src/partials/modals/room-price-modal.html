@@ -1,5 +1,5 @@
 <section class="section-modal-book-table">
-    <link rel="stylesheet" href="../../css/modals/book-table-modal.css">
+    <link rel="stylesheet" href="../../css/modals/room-price-modal.css">
     <link rel="stylesheet" href="../../css/base/variables.css">
     <link rel="stylesheet" href="../../css/base/reset_and_global_styles.css">
     <div class="book-table-modal"> 
@@ -11,17 +11,17 @@
        
     <form class="book-table-form">
         <ul class="book-table-list">
-            <li class="book-table-item"><input type="number" name="name" id="name-of-customers" class="book-table-inpu" placeholder="Ваше ім’я" required></li>
-            <li class="book-tablet-sub-title"><label class="sub-text" for="name-of-customers">На кого забронювати столик?</label></li>
-            <li class="book-table-item"><input type="number" name="phone" id="phone" class="book-table-inpu" placeholder="+38 (___) ___-__-__"required></li>
-            <li class="book-tablet-sub-title"><label class="sub-text" for="phone">Номер телефону</label></li>
-            <li class="book-table-item">
+            
+            <li class="book-tablet-sub-title"><label class="sub-text" for="date">Категорія номеру</label></li>
+            <li class="book-table-item"><input type="number" name="date" id="date" class="book-table-inpu" value="1" required></li>
+            <li class="book-tablet-sub-title"><label class="sub-text" for="date"></label></li>
+            <li class="book-tablet-sub-title"><div class="con-output"><p class="output fix-price">1000</p></div></li>
 
-        <button type="submit" class="make-book">ЗАБРОНЮВАТИ НОМЕР</button>
+        <button type="button submit" class="make-book" id="price">ЗАБРОНЮВАТИ НОМЕР</button>
     </form>
     
 </div>
 
-    <script src="../../public/modal-table.js"></script>
+    <script src="../../public/modal-room-price.js"></script>
 </section>
 
