@@ -14,6 +14,7 @@ body{
     width: 24px;
     height: 24px;
     z-index: 100;
+    stroke: black;
 }
 
 .book-table-form{
