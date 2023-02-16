@@ -1,0 +1,33 @@
+/* Підзаголовок секції ресторану */
+.subtitle-restaurant {
+    color: #B4B4B4;
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+.title-restaurant {
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: 0.3em;
+}
+
+.section-restaurant-text {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.restaurant-text-accent {
+    color: var(--brown-color);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.second-part {
+    display: flex;
+}
