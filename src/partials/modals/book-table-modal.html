@@ -1,11 +1,16 @@
-<section>
-    <div>
-        <p>Забронювати столик</p>
-    <form action="">
+<section class="section-modal-book-table">
+    <link rel="stylesheet" href="../../css/modals/book-table-modal.css">
+    <link rel="stylesheet" href="../../css/base/variables.css">
+    <link rel="stylesheet" href="../../css/base/reset_and_global_styles.css">
+    <div class="book-table-modal">
+        <p class="title-table-mod">Забронювати столик</p>
+    <form class="book-table-form">
         <ul class="book-table-list">
-            <li class="book-table-item"><input type="text" name="" id="" class="book-table-inpu"></li>
-            <li class="book-table-item"><input type="text" name="" id="" class="book-table-inpu"></li>
-            <li class="book-table-item"><select name="" id="" class="book-table-sel">
+            <li class="book-table-item"><input type="text" name="name" id="name-of-customers" class="book-table-inpu" placeholder="Ваше ім’я"></li>
+            <li class="book-tablet-sub-title"><label class="sub-text" for="name-of-customers">На кого забронювати столик?</label></li>
+            <li class="book-table-item"><input type="text" name="phone" id="phone" class="book-table-inpu" placeholder="+38 (___) ___-__-__"></li>
+            <li class="book-tablet-sub-title"><label class="sub-text" for="phone">Номер телефону</label></li>
+            <li class="book-table-item"><select name="table" id="size-table" class="book-table-sel">
                 <optgroup label="Кількість особ">
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -13,16 +18,20 @@
                     <option value="4">4</option>
                 </optgroup>
             </select></li>
-            <li class="book-table-item"><select name="" id="" class="book-table-sel">
+            <li class="book-tablet-sub-title"><label class="sub-text" for="size-table">Столик на яку кількість осіб?</label></li>
+            <li class="book-table-item"><select name="date" id="date-of-order" class="book-table-sel">
                 <optgroup label="Вибріть день">
                     <option value="today">Сьогодні</option>
                     <option value="tommorow">Завтра</option>
                     <option value="day-after-tommorow">Післязавтра</option>
                 </optgroup>
+        
             </select></li>
+            <li class="book-tablet-sub-title"><label class="sub-text" for="date-of-order">На яку дату бронювати?</label></li>
         </ul>
+        <button type="submit" class="make-book">Оформити бронювання</button>
     </form>
-    <button type="button">Оформити бронювання</button>
+    
 </div>
     
 </section>

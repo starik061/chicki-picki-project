@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+
+.book-table-form{
+    margin: 0px;
+}
+
+.section-modal-book-table{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--hero-background-color);
+}
+
+.book-table-modal {
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    flex-direction: column;
+
+    max-width: 384px;
+
+    background-color:var(--main-background-color);
+}
+.title-table-mod {
+margin-bottom: 40px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+letter-spacing: 0.05em;
+
+color: var(--black-color);
+}
+.book-table-list {
+    width: 384px;
+   list-style: none;
+}
+.book-tablet-sub-title{
+    margin-bottom: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+
+    letter-spacing: 0.02em;
+
+    color: #C79002;
+}
+.book-table-item {
+   margin-bottom: 8px;
+    height: 54px;
+}
+.book-table-inpu {
+    background-color: transparent;
+    border: 1px solid #C79002;
+    border-radius: 2px;
+
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+
+    color: #808080;
+}
+.book-table-sel { 
+    background-color: transparent;
+    border: 1px solid #C79002;
+    border-radius: 2px;
+
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+
+    color: #808080;
+}
+.make-book {
+margin-top: 20px;
+
+    padding: 20px 43px;
+    width: 384px;
+    background-color: var(--black-color);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: var(--white-color);
+}
