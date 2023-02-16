@@ -3,25 +3,27 @@
     <link rel="stylesheet" href="../../css/base/variables.css">
     <link rel="stylesheet" href="../../css/base/reset_and_global_styles.css">
     <div class="book-table-modal"> 
-        
-        <button type="button" class="modal-table-close"><svg>
+        <div class="block-close">
+            <button type="button" class="modal-table-close"><svg>
             <use href="../../img/icons.svg#icon-close-modal-tabel"></use>
         </svg></button>
+    </div>
+        
         <p class="title-table-mod">ЦІНИ НА НОМЕР</p>
        
     <form class="book-table-form">
         <ul class="book-table-list">
             
-            <li class="book-tablet-sub-title"><label class="sub-text" for="date">Категорія номеру</label></li>
-            <li class="book-table-item"><input type="number" name="date" id="date" class="book-table-inpu" value="1" required></li>
+            <li class="book-tablet-sub-title"><label class="sub-text" for="">Категорія номеру</label></li>
+            <li class="book-table-item"><input type="number" name="date" id="amount" class="book-table-inpu" value="1" required></li>
             <li class="book-tablet-sub-title"><label class="sub-text" for="date"></label></li>
-            <li class="book-tablet-sub-title"><div class="con-output"><p class="output fix-price">1000</p></div></li>
+            <li class="book-tablet-sub-title"><div class="con-output"><p class="output" id="result">1000</p></div></li>
 
-        <button type="button submit" class="make-book" id="price">ЗАБРОНЮВАТИ НОМЕР</button>
+        <button type="button" class="make-book" id="convert">ЗАБРОНЮВАТИ НОМЕР</button>
     </form>
     
 </div>
-
+<p id="to">1000</p>
     <script src="../../public/modal-room-price.js"></script>
 </section>
 
