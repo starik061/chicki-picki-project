@@ -1,0 +1,39 @@
+.luxe-room {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.section-text {
+  margin-bottom: 32px;
+}
+
+.top-title-room {
+  margin-bottom: 8px;
+}
+
+.main-title-room {
+  margin-bottom: 32px;
+}
+
+.title-name-room {
+  margin-bottom: 12px;
+}
+
+.room-description {
+  margin-bottom: 32px;
+}
+
+.slider-photo {
+  position: relative;
+}
+
+.slider-photo-list {
+  display: flex;
+  /* width: 388px; */
+  position: absolute;
+  left: -50%;
+}
+
+.slider-photo-item {
+  margin-right: 15px;
+}
