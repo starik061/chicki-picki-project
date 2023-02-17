@@ -54,7 +54,7 @@ body{
 .sub-text{
   display: block;
 
-  margin-top: 8px;
+  
   margin-left: 12px;
 
   font-family: 'Montserrat';
@@ -111,9 +111,24 @@ letter-spacing: 0.05em;
 
 color: var(--black-color);
 }
+
+@media (min-width: 1024px) {
+  .title-table-mod {
+    font-family: 'Times New Roman';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 46px;
+    
+      letter-spacing: 0.05em;
+
+      color: #000000;
+  }
+}
 .book-table-list {
     width: 320px;
    list-style: none;
+   margin-bottom: 20px;
 }
 
 @media (min-width: 414px) {
@@ -123,7 +138,17 @@ color: var(--black-color);
     }
 }
 
+@media (min-width: 1024px) {
+  .book-table-list {
+    width: 100%;
+    gap: 16px;
+    display: flex;
+    margin-bottom: 0px;
+  }
+}
+
 .book-tablet-sub-title{
+  margin-top: 8px;
     margin-bottom: 20px;
 
     font-family: 'Montserrat';
@@ -137,11 +162,32 @@ color: var(--black-color);
 
     color: #C79002;
 }
+@media (min-width: 1024px) {
+  
+  .book-tablet-sub-title {
+      margin-bottom: 28px;
+    }
+
+     .book-tablet-sub-title:last-child{
+      margin-bottom: 0px;
+     }
+ 
+}
 .book-table-item {
     position: relative;
-    margin-bottom: 8px;
-      /* height: 79px; */
-    
+    margin-bottom: 20px;
+      /* height: 79px; */  
+}
+
+
+@media (min-width: 1024px) {
+  .book-table-item{
+    margin-bottom: 28px;
+    width: 288px;
+  }
+    .book-table-item:last-child {
+      margin-bottom: 0px;
+    }
 }
 .book-table-inpu {
 padding: 17px 12px;
@@ -162,13 +208,24 @@ padding: 17px 12px;
     color: #808080;
 
     padding-left: 15px;
+
+    margin-bottom: 8px;
 }
+
 
 @media (min-width: 414px) {
   .book-table-inpu{
     width: 100%;
+    margin-bottom: 8px;
   }
 }
+@media (min-width: 1024px) {
+  .book-table-inpu {
+      height: 64px;
+      margin-bottom: 8px;
+    }
+}
+
 
 .make-book {
   text-transform: uppercase;
@@ -235,6 +292,7 @@ font-weight: 700;
 font-size: 20px;
 line-height: 23px;
 letter-spacing: 0.05em;
+height: 62px;
   }
   
   .custom-select select {
