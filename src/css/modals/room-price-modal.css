@@ -60,6 +60,22 @@ letter-spacing: 0.05em;
 
 color: var(--black-color);
 }
+
+.sub-title-mod-price{
+text-align: start;
+margin-bottom: 28px;
+
+  font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+
+letter-spacing: 0.05em;
+
+color: var(--placeholder-color);
+}
 .book-table-list {
     width: 384px;
    list-style: none;
@@ -79,6 +95,25 @@ color: var(--black-color);
     letter-spacing: 0.02em;
 
     color: #C79002;
+}
+
+.book-price-sub-title{
+  text-align: start;
+
+   margin-left: 15px;
+   margin-bottom: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+
+    letter-spacing: 0.02em;
+
+    color: #C79002;
+
 }
 .book-table-item {
     position: relative;
@@ -104,6 +139,10 @@ color: var(--black-color);
 
     padding-left: 15px;
 }
+.book-tablet-output{
+  text-align: start;
+  margin-bottom: 8px;
+}
 
 .make-book {
 margin-top: 20px;
@@ -118,7 +157,26 @@ font-weight: 500;
 font-size: 20px;
 line-height: 24px;
 
+border: 1px solid var(--yellow-color);
+
 color: var(--white-color);
+
+
+transition-delay: 0ms;
+transition-duration:var(--transition-func);
+transition-property: color, background-color;
+transition-timing-function: var(--transition-dur);
+}
+
+.make-book:hover{
+  background-color: var(--yellow-color);
+  color: black;
+
+  transition-delay: 0ms;
+  transition-duration:var(--transition-func);
+  transition-property: color, background-color;
+  transition-timing-function: var(--transition-dur);
+
 }
 
 .con-output {

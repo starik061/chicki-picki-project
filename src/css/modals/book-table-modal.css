@@ -2,19 +2,25 @@ body{
     margin: 0;
 }
 
+.block-close{
+  display: flex;
+  justify-content: end;
+}
+
 .modal-table-close{
 
-    margin-left: 100%;
+    display: flex;
+    justify-content: end;
     margin-bottom: 20px;
     width: 24px;
     height: 24px;
     background-color: transparent;
+    stroke: black;
 }
 .modal-table-close > svg{
     width: 24px;
     height: 24px;
     z-index: 100;
-    stroke: black;
 }
 
 .book-table-form{
@@ -35,17 +41,14 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    flex-direction: column;
 
     max-width: 384px;
 
     background-color:var(--main-background-color);
 }
 .title-table-mod {
+  text-align: center;
   text-transform: uppercase;
 margin-bottom: 40px;
 
@@ -103,20 +106,40 @@ color: var(--black-color);
 }
 
 .make-book {
-margin-top: 20px;
-
-    padding: 20px 43px;
-    width: 384px;
-    background-color: var(--black-color);
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-
-color: var(--white-color);
-}
+  text-transform: uppercase;
+  margin-top: 20px;
+  
+      padding: 20px 43px;
+      width: 384px;
+      background-color: var(--black-color);
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  
+  border: 1px solid var(--yellow-color);
+  
+  color: var(--white-color);
+  
+  
+  transition-delay: 0ms;
+  transition-duration:var(--transition-func);
+  transition-property: color, background-color;
+  transition-timing-function: var(--transition-dur);
+  }
+  
+  .make-book:hover{
+    background-color: var(--yellow-color);
+    color: black;
+  
+    transition-delay: 0ms;
+    transition-duration:var(--transition-func);
+    transition-property: color, background-color;
+    transition-timing-function: var(--transition-dur);
+  
+  }
 
 /* The container must be positioned relative: */
 .custom-select {
@@ -145,8 +168,8 @@ letter-spacing: 0.05em;
   /* Style the arrow inside the select element: */
   .select-selected:after {
     position: absolute;
-    content: "";
-    background-image: url(../../img/ep_arrow-down-bold.png);
+    content: url(../../img/ep_arrow-down-bold.svg);
+   
     top: 15px;
     right: 15px;
     width: 24px;
@@ -156,7 +179,7 @@ letter-spacing: 0.05em;
   
   /* Point the arrow upwards when the select box is open (active): */
   .select-selected.select-arrow-active:after {
-    background-image: url(../../img/ep_arrow-down-bold.png) 0 0 repeat;
+    content: url(../../img/ep_arrow-down-bold.svg) 0 0 repeat;
     transform: rotate(180deg);
   }
   
