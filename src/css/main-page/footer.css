@@ -1,48 +1,11 @@
 footer {
   background-color: var(--black-footer-color);
-<<<<<<< Updated upstream
-  max-height: 240px;
-=======
   padding-top: 40px;
   padding-bottom: 40px;
->>>>>>> Stashed changes
 }
 
 @media (min-width: 1040px) {
   footer {
-<<<<<<< Updated upstream
-    max-height: 304px;
-  }
-}
-
-@media (max-width: 351px) {
-  .footer--container {
-    display: flex;
-    gap: 30px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: auto;
-    padding-right: auto;
-  }
-}
-
-@media (min-width: 351px) {
-  .footer--container {
-    display: flex;
-    gap: 70px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-}
-
-@media (min-width: 414px) {
-  .footer--container {
-    display: flex;
-    padding-left: 59px;
-    padding-right: 41px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-=======
     padding-top: 80px;
     padding-bottom: 80px;
   }
@@ -59,7 +22,6 @@ footer {
     display: flex;
     padding-left: 34px;
     padding-right: 16px;
->>>>>>> Stashed changes
   }
 }
 
@@ -67,12 +29,8 @@ footer {
   .footer--container {
     display: flex;
     gap: 167px;
-<<<<<<< Updated upstream
-    padding: 80px 0px 80px 154px;
-=======
     padding-left: 154px;
     padding-right: 122px;
->>>>>>> Stashed changes
   }
 }
 
@@ -80,12 +38,8 @@ footer {
   .footer--container {
     display: flex;
     gap: 231px;
-<<<<<<< Updated upstream
-    padding: 80px 0px 80px 216px;
-=======
     padding-left: 216px;
     padding-right: 186px;
->>>>>>> Stashed changes
   }
 }
 
@@ -106,37 +60,26 @@ footer {
 .logo {
   margin-top: auto;
   margin-bottom: auto;
-<<<<<<< Updated upstream
-  font-family: 'Film P3';
-  font-size: 64px;
-=======
   margin-right: 85px;
   font-family: 'Film P3';
   font-size: 40px;
->>>>>>> Stashed changes
   font-weight: 700;
   text-transform: uppercase;
   color: var(--yellow-color);
 }
 
-<<<<<<< Updated upstream
-=======
 @media (max-width: 413px) {
   .logo {
     margin-right: 50px;
   }
 }
 
->>>>>>> Stashed changes
 @media (min-width: 1024px) {
   .logo {
     display: flex;
     align-items: center;
-<<<<<<< Updated upstream
-=======
     margin-right: 0;
     font-size: 64px;
->>>>>>> Stashed changes
   }
 }
 
