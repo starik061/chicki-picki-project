@@ -1,0 +1,11 @@
+.hero-section-restaurant {
+    background-image: linear-gradient(var(--hero-background-color), var(--hero-background-color)), url('../../img/hero-img/hero-bg-rest-mobile.jpg');
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 414px),
+screen and (min-resolution: 192dpi) and (max-width: 414px),
+screen and (min-resolution: 2dppx) and (max-width: 414px) {
+    .hero-section-restaurant {
+        background-image: linear-gradient(var(--hero-background-color), var(--hero-background-color)), url('../../img/hero-img/hero-bg-rest-mobile@2x.jpg');
+    }
+}

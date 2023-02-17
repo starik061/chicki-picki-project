@@ -1,0 +1,55 @@
+/* =========================================== */
+.header-flex {
+    display: flex;
+    align-items: center;
+}
+
+/* =========================================== */
+
+.header-section {
+    position: absolute;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 9px;
+}
+
+.page-nav {
+    min-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page-nav-list {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.page-nav-item {
+    gap: 6px;
+}
+
+.page-nav-contacts,
+.header-social-list {
+    display: none;
+}
+
+.page-nav-logo {
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.08;
+    letter-spacing: 0.3em;
+    color: var(--white-color);
+}
+
+.page-nav-link {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--yellow-color);
+}
+
+.nav-icon {
+    fill: var(--yellow-color)
+}
