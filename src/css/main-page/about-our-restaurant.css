@@ -21,11 +21,10 @@
     }
 }
 
-<<<<<<< Updated upstream
 /* mobile screen */
-=======
+
 /* Заголовок ресторану */
->>>>>>> Stashed changes
+
 .title-restaurant {
     font-family: 'Film P3';
     font-weight: 700;
@@ -50,10 +49,6 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     width: 244px;
-<<<<<<< Updated upstream
-=======
-    
->>>>>>> Stashed changes
 }
 
 /* tablet screen */
@@ -91,7 +86,6 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     width: 163px;
-<<<<<<< Updated upstream
     height: 120px;
     margin-left: 20px;
 }
@@ -105,16 +99,14 @@
         height: 122px;
 
     }
-=======
-    margin-left: 20px;
->>>>>>> Stashed changes
+
+
 }
 
 .second-part {
     margin-top: 32px;
     display: flex;
     align-items: center;
-<<<<<<< Updated upstream
     margin-top: 32px;
 }
 
@@ -138,8 +130,7 @@
         margin-top: 0;
 
     }
-=======
->>>>>>> Stashed changes
+
 }
 
 .restaurant-first-card {
@@ -147,7 +138,7 @@
     justify-content: right;
     margin-top: 28px;
 }
-<<<<<<< Updated upstream
+
 
 /* tablet screen */
 @media screen and (min-width:1024px) {
@@ -216,27 +207,3 @@
 }
 
 
-
-
-
-
-
-=======
-/* Положення слайдеру */
-/* #slider {
-    position: relative;
-    text-align: right;
-    top:10px;
-    margin: 0 auto;
-}
-
-#slider article {
-    width:20%
-    
-} */
-
-.swiper {
-    width: 200px;
-    height: 300px;
-}
->>>>>>> Stashed changes
