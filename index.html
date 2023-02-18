@@ -15,11 +15,28 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
+    <!-- -------------------------для слайдера Slick------- -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <!-- ----------------------------------------------- -->
     
     
-    <script type="module" crossorigin src="/chicki-picki-project/assets/reset_and_global_styles-fac82e35.js"></script>
-    <link rel="stylesheet" href="/chicki-picki-project/assets/reset_and_global_styles-2a04a4f9.css">
-    <link rel="stylesheet" href="/chicki-picki-project/assets/index-88fc89d5.css">
+    <script type="module" crossorigin src="/chicki-picki-project/assets/main-5b4cf75f.js"></script>
+    <link rel="stylesheet" href="/chicki-picki-project/assets/main-2a04a4f9.css">
+    <link rel="stylesheet" href="/chicki-picki-project/assets/index-82181f5b.css">
   </head>
   <body>
     <a href="room-page.html">Room Page</a>
@@ -30,9 +47,207 @@
 
     
     
+    <div class="details-restaurant-wrap">
+  <section class="details-restaurant">
+    <div class="main-container">
+      <div class="details-restaurant-contant">
+        <p class="details-restaurant-logo">mimino</p>
+        <h2 class="details-restaurant-title">Ресторан</h2>
+        <p class="details-restaurant-text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit.
+        </p>
+      </div>
+
+      <div class="details-restaurant-wrapper">
+        <ul class="details-restaurant-list details-slider">
+          <li class="details-restaurant-item">
+            <picture>
+              <source
+                srcset="/chicki-picki-project/assets/restaurant-details-desktop-1-a5dd831c.jpg 1x, /chicki-picki-project/assets/restaurant-details-desktop-1@2x-ca7ab7d1.jpg 2x"
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="/chicki-picki-project/assets/restaurant-details-desktop-1-a5dd831c.jpg 1x, /chicki-picki-project/assets/restaurant-details-tablet-1@2x-4c468521.jpg 2x"
+                media="(min-width: 1024px)"
+              />
+              <source
+                srcset="/chicki-picki-project/assets/restaurant-details-mobile-1-241eefec.jpg 1x, /chicki-picki-project/assets/restaurant-details-mobile-1@2x-a9ccb719.jpg 2x"
+                media="(min-width: 414px)"
+              />
+              <img
+                class="details-restaurant-img"
+                src="/chicki-picki-project/assets/restaurant-details-mobile-1-241eefec.jpg"
+                alt="cake"
+              />
+            </picture>
+          </li>
+
+          <li class="details-restaurant-item">
+            <picture>
+              <source
+                srcset="/chicki-picki-project/assets/restaurant-details-desktop-2-6b41e492.jpg 1x, /chicki-picki-project/assets/restaurant-details-desktop-2@2x-0cfe45a1.jpg 2x"
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="/chicki-picki-project/assets/restaurant-details-tablet-2-68c1bdec.jpg 1x, /chicki-picki-project/assets/restaurant-details-tablet-2@2x-f9b7de2e.jpg 2x"
+                media="(min-width: 1024px)"
+              />
+              <source
+                srcset="/chicki-picki-project/assets/restaurant-details-mobile-2-7a003e29.jpg 1x, /chicki-picki-project/assets/restaurant-details-mobile-2@2x-bf007319.jpg 2x"
+                media="(min-width: 414px)"
+              />
+              <img
+                class="details-restaurant-img"
+                src="/chicki-picki-project/assets/restaurant-details-mobile-2-7a003e29.jpg"
+                alt="tea"
+              />
+            </picture>
+          </li>
+          <li class="details-restaurant-item">
+            <picture>
+              <source
+                srcset="/chicki-picki-project/assets/restaurant-details-desktop-3-3d681d5a.jpg 1x, /chicki-picki-project/assets/restaurant-details-desktop-3@2x-d7e7d589.jpg 2x"
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="/chicki-picki-project/assets/restaurant-details-tablet-3-7ea03175.jpg 1x, /chicki-picki-project/assets/restaurant-details-tablet-3@2x-154d80d1.jpg 2x"
+                media="(min-width: 1024px)"
+              />
+              <source
+                srcset="/chicki-picki-project/assets/restaurant-details-mobile-3-47864172.jpg 1x, /chicki-picki-project/assets/restaurant-details-mobile-3@2x-ed8059a5.jpg 2x"
+                media="(min-width: 414px)"
+              />
+              <img
+                class="details-restaurant-img"
+                src="/chicki-picki-project/assets/restaurant-details-mobile-3-47864172.jpg"
+                alt="photo of the dish"
+              />
+            </picture>
+          </li>
+          <li class="details-restaurant-item">
+            <img
+              class="details-restaurant-img"
+              srcset="/chicki-picki-project/assets/restaurant-details-mobile-4-505b4fd9.jpg 1x, /chicki-picki-project/assets/restaurant-details-mobile-4@2x-e4ed6169.jpg 2x"
+              src="/chicki-picki-project/assets/restaurant-details-mobile-4-505b4fd9.jpg"
+              alt="general view of the served table"
+            />
+          </li>
+        </ul>
+        <div class="details-restaurant-btn-wrap">
+          <button type="button" class="details-btn">Забронювати столик</button>
+          <a
+            href="./about-our-restaurant.html"
+            class="details-btn details-btn-link"
+            >Переглянути меню</a
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
     
-    
-    
+    <div class="details-hotel-wrap">
+  <section class="details-hotel">
+    <div class="main-container">
+      <div class="details-hotel-contant">
+        <p class="details-hotel-logo">mimino</p>
+        <h2 class="details-hotel-title">Готель</h2>
+        <p class="details-hotel-text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit.
+        </p>
+      </div>
+
+      <div class="details-hotel-wrapper">
+        <div class="details-hotel-slider">
+          <ul class="details-hotel-list details-slider">
+            <li class="details-hotel-item">
+              <picture>
+                <source
+                  srcset="/chicki-picki-project/assets/hotel-details-desktop-1-67ebce5a.jpg 1x, /chicki-picki-project/assets/hotel-details-desktop-1@2x-62a51899.jpg 2x"
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="/chicki-picki-project/assets/hotel-details-tablet-1-a28bff88.jpg 1x, /chicki-picki-project/assets/hotel-details-tablet-1@2x-d4e1d054.jpg 2x"
+                  media="(min-width: 1024px)"
+                />
+                <source
+                  srcset="/chicki-picki-project/assets/hotel-details-mobile-1-1f8e11f4.jpg 1x, /chicki-picki-project/assets/hotel-details-mobile-1@2x-2325adb6.jpg 2x"
+                  media="(min-width: 414px)"
+                />
+                <img
+                  class="details-hotel-img"
+                  src="/chicki-picki-project/assets/hotel-details-mobile-1-1f8e11f4.jpg"
+                  alt="cake"
+                />
+              </picture>
+            </li>
+
+            <li class="details-hotel-item">
+              <picture>
+                <source
+                  srcset="/chicki-picki-project/assets/hotel-details-desktop-2-448b2ce0.jpg 1x, /chicki-picki-project/assets/hotel-details-desktop-2@2x-77124075.jpg 2x"
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="/chicki-picki-project/assets/hotel-details-tablet-2-2caf3f34.jpg 1x, /chicki-picki-project/assets/hotel-details-tablet-2@2x-a6fecf2a.jpg 2x"
+                  media="(min-width: 1024px)"
+                />
+                <source
+                  srcset="/chicki-picki-project/assets/hotel-details-mobile-2-c4af2424.jpg 1x, /chicki-picki-project/assets/hotel-details-mobile-2@2x-ce15c1be.jpg 2x"
+                  media="(min-width: 414px)"
+                />
+                <img
+                  class="details-hotel-img"
+                  src="/chicki-picki-project/assets/hotel-details-mobile-2-c4af2424.jpg"
+                  alt="tea"
+                />
+              </picture>
+            </li>
+            <li class="details-hotel-item">
+              <picture>
+                <source
+                  srcset="/chicki-picki-project/assets/hotel-details-desktop-3-db39d93b.jpg 1x, /chicki-picki-project/assets/hotel-details-desktop-3@2x-bb5b51e2.jpg 2x"
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="/chicki-picki-project/assets/hotel-details-tablet-3-a180f96f.jpg 1x, /chicki-picki-project/assets/hotel-details-tablet-3@2x-bdb1c6f7.jpg 2x"
+                  media="(min-width: 1024px)"
+                />
+                <source
+                  srcset="/chicki-picki-project/assets/hotel-details-mobile-3-1a5002c4.jpg 1x, /chicki-picki-project/assets/hotel-details-mobile-3@2x-f3da929e.jpg 2x"
+                  media="(min-width: 414px)"
+                />
+                <img
+                  class="details-hotel-img"
+                  src="/chicki-picki-project/assets/hotel-details-mobile-3-1a5002c4.jpg"
+                  alt="photo of the dish"
+                />
+              </picture>
+            </li>
+            <li class="details-hotel-item">
+              <img
+                class="details-hotel-img"
+                srcset="/chicki-picki-project/assets/hotel-details-mobile-4-4ddd0aa3.jpg 1x, /chicki-picki-project/assets/hotel-details-mobile-4@2x-e8225523.jpg 2x"
+                src="/chicki-picki-project/assets/hotel-details-mobile-4-4ddd0aa3.jpg"
+                alt="general view of the served table"
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="details-hotel-btn-wrap">
+          <button type="button" class="details-btn">Забронювати столик</button>
+          <a href="./about-our-hotel.html" class="details-btn details-btn-link"
+            >Переглянути ціни</a
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
     <section>
   <div class="main-container">
     <h1 hidden>Контакти</h1>
@@ -57,7 +272,7 @@
           <a class="network--link" href="#" target="_blank"
             ><span class="network--name">instagram</span>
             <svg width="24" height="24" class="network--icon">
-              <use href="/chicki-picki-project/assets/icons-48b59536.svg#instagram"></use></svg
+              <use href="/chicki-picki-project/assets/icons-0e5039c2.svg#instagram"></use></svg
           ></a>
         </li>
 
@@ -65,7 +280,7 @@
           <a class="network--link" href="#" target="_blank"
             ><span class="network--name">facebook</span>
             <svg width="24" height="24" class="network--icon">
-              <use href="/chicki-picki-project/assets/icons-48b59536.svg#facebook"></use>
+              <use href="/chicki-picki-project/assets/icons-0e5039c2.svg#facebook"></use>
             </svg>
           </a>
         </li>
@@ -74,7 +289,7 @@
           <a class="network--link" href="" target="_blank"
             ><span class="network--name">telegram</span>
             <svg width="24" height="24" class="network--icon">
-              <use href="/chicki-picki-project/assets/icons-48b59536.svg#telegram"></use>
+              <use href="/chicki-picki-project/assets/icons-0e5039c2.svg#telegram"></use>
             </svg>
           </a>
         </li>
@@ -83,7 +298,21 @@
   </div>
 </footer>
 
-
+<!-- ---------------скрипт бібліотеки для слайдера Slick---- -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  <!-- -------------------------------- -->
+    
     
   </body>
 </html>
