@@ -10,7 +10,7 @@
 @media screen and (min-width: 320px) {
   .details-hotel-wrap {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(./../../img/details-of-our-hotel/hotel-details-mobile/hotel-details-bcg-mobile.jpg);
+      url(../../img/details-of-our-hotel/hotel-details-mobile/hotel-details-bcg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -125,7 +125,7 @@
 @media screen and (min-width: 1024px) {
   .details-hotel-wrap {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(../img/details-of-our-hotel/hotel-details-tablet/hotel-details-bcg-tablet.jpg);
+      url(../../img/details-of-our-hotel/hotel-details-tablet/hotel-details-bcg-tablet.jpg);
     max-width: 1024px;
   }
 }
@@ -136,7 +136,7 @@
   (min-resolution: 2dppx) and (min-width: 1024px) {
   .details-hotel-wrap {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(./img/details-of-our-hotel/hotel-details-tablet/hotel-details-bcg-tablet@2x.jpg);
+      url(../../img/details-of-our-hotel/hotel-details-tablet/hotel-details-bcg-tablet@2x.jpg);
     max-width: 1024px;
   }
 }
@@ -213,7 +213,7 @@
   (min-resolution: 2dppx) and (min-width: 1280px) {
   .details-hotel-wrap {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(./img/details-of-our-hotel/hotel-details-desktop/hotel-details-bcg-desktop@2x.jpg);
+      url(../../img/details-of-our-hotel/hotel-details-desktop/hotel-details-bcg-desktop@2x.jpg);
   }
 }
 
