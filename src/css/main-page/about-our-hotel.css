@@ -1,0 +1,209 @@
+/* Підзаголовок секції ресторану */
+/* Mobile screen */
+.subtitle-restaurant {
+    color: #B4B4B4;
+    font-size: 20px;
+    line-height: 1.1;
+    margin-bottom: 12px;
+}
+
+/* tablet screen , desktop screen */
+@media screen and (min-width:1024px) {
+
+    .subtitle-restaurant {
+        font-size: 32px;
+        margin-bottom: 4px;
+    }
+}
+
+/* mobile screen */
+.title-restaurant {
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: 0.3em;
+    margin-bottom: 12px;
+}
+
+/* tablet screen , desktop screen */
+@media screen and (min-width:1024px) {
+
+    .title-restaurant {
+        font-size: 64px;
+        margin-bottom: 24px;
+    }
+}
+
+.tittle-subtitle-block {
+    text-align: right;
+}
+
+.section-restaurant-text {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    width: 244px;
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .section-restaurant-text {
+        font-size: 16px;
+        width: 412px;
+        height: 80px;
+
+    }
+}
+
+/* desktop screen */
+@media screen and (min-width:1280px) {
+
+    .section-restaurant-text {
+        width: 518px;
+        height: 60px;
+        margin-left: auto;
+
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    .tablet-desktop {
+        display: none;
+
+    }
+}
+
+.restaurant-text-accent {
+    color: var(--brown-color);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    width: 163px;
+    height: 120px;
+    margin-left: 20px;
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .restaurant-text-accent {
+        font-size: 16px;
+        width: 312px;
+        height: 122px;
+
+    }
+}
+
+/* desktop screen */
+@media screen and (min-width:1280px) {
+
+    .restaurant-text-accent {
+        margin-left: 364px;
+
+    }
+}
+
+.second-part {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .second-part {
+        position: relative;
+        top: -265px;
+        margin-top: 0;
+
+    }
+}
+
+/* tablet screen */
+@media screen and (min-width:1280px) {
+
+    .second-part {
+        display: flex;
+        justify-content: right;
+        position: relative;
+        top: -325px;
+        margin-top: 0;
+
+    }
+}
+
+.restaurant-first-card {
+    margin-top: 28px;
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .restaurant-first-card {
+        position: relative;
+        top: -265px;
+        margin-top: 0;
+
+    }
+}
+
+.section-about-restaurant {
+    padding-top: 16px;
+    padding-bottom: 20px;
+
+}
+
+/* Slider */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    width: 100%;
+    margin-left: auto;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider .slider__item {
+    opacity: 0.5;
+    margin: 20px;
+
+}
+
+.slider .slider__item.slick-center {
+    opacity: 1;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    cursor: pointer;
+    font-size: 25px;
+    color: #330867;
+    padding: 3px 10px;
+    bottom: -50px;
+    background-size: contain;
+    width: 32px;
+    background-repeat: no-repeat;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.slider .slick-prev {
+    right: 70px;
+    background-image: url(../../img/about-restaurant-images/arrow-left.svg);
+}
+
+.slider .slick-next {
+    right: 0px;
+    background-image: url(../../img/about-restaurant-images/arrow-right.svg);
+}
