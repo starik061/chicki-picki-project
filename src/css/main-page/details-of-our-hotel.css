@@ -1,0 +1,234 @@
+@font-face {
+  font-family: 'Film P3';
+  src: url('../../../src/mimino-font/FilmP3Bold.woff2') format('woff2'),
+    url('../../../src/mimino-font/FilmP3Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@media screen and (min-width: 320px) {
+  .details-hotel-wrap {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../../img/details-of-our-hotel/hotel-details-mobile/hotel-details-bcg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 414px;
+    max-height: 735px;
+    margin: 0 auto;
+  }
+
+  @media (min-device-pixel-ratio: 2) and (min-width: 320px),
+    (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px),
+    (min-resolution: 192dpi) and (min-width: 320px),
+    (min-resolution: 2dppx) and (min-width: 320px) {
+    .details-hotel-wrap {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../../img/details-of-our-hotel/hotel-details-mobile/hotel-details-bcg-mobile@2x.jpg);
+    }
+  }
+
+  .details-hotel {
+    padding-top: 24px;
+    padding-bottom: 40px;
+  }
+
+  .details-hotel-contant {
+    padding-right: 33.8%;
+    margin-bottom: 48px;
+  }
+
+  .details-hotel-logo {
+    margin-bottom: 12px;
+    margin-right: -5%;
+
+    font-family: 'Film P3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.08;
+    letter-spacing: 0.3em;
+    color: var(--white-color);
+    text-align: right;
+  }
+
+  .details-hotel-title {
+    margin-bottom: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+    text-align: right;
+  }
+
+  .details-hotel-text {
+    padding-left: 7.7%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--grey-secondary-description-color);
+  }
+
+  .details-hotel-list {
+    margin-left: 0;
+    margin-bottom: 80px;
+    padding-right: 9.6%;
+  }
+
+  .details-hotel-item {
+    max-width: 274px;
+    height: 270px;
+  }
+
+  .details-hotel-item:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .details-hotel-img {
+    max-width: 274px;
+    height: 270px;
+  }
+
+  .details-hotel-list .prev,
+  .details-hotel-list .next {
+    position: absolute;
+    top: 110%;
+    height: 32px;
+    width: 32px;
+    z-index: 3;
+    cursor: pointer;
+  }
+
+  .details-hotel-list .prev {
+    right: 96px;
+  }
+
+  .details-hotel-list .next {
+    right: 32px;
+  }
+}
+
+/* -------------------Фонове зображення від таблет --------------- */
+
+@media screen and (min-width: 1024px) {
+  .details-hotel-wrap {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../../img/details-of-our-hotel/hotel-details-tablet/hotel-details-bcg-tablet.jpg);
+    max-width: 1024px;
+  }
+}
+
+@media (min-device-pixel-ratio: 2) and (min-width: 1024px),
+  (-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px),
+  (min-resolution: 192dpi) and (min-width: 1024px),
+  (min-resolution: 2dppx) and (min-width: 1024px) {
+  .details-hotel-wrap {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../../img/details-of-our-hotel/hotel-details-tablet/hotel-details-bcg-tablet@2x.jpg);
+    max-width: 1024px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .details-hotel {
+    padding-top: 48px;
+    padding-bottom: 40px;
+  }
+
+  .details-hotel-contant {
+    padding-right: 24.8%;
+    margin-bottom: 40px;
+  }
+
+  .details-hotel-logo {
+    margin-bottom: 16px;
+    margin-right: -3%;
+
+    font-size: 64px;
+    line-height: 1.08;
+  }
+
+  .details-hotel-title {
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 1.21;
+  }
+
+  .details-hotel-text {
+    text-align: justify;
+
+    padding-left: 20%;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .details-hotel-list {
+    padding-right: 0;
+    margin-right: 28.5%;
+  }
+  .details-hotel-list .prev {
+    right: 64px;
+  }
+  .details-hotel-list .next {
+    right: 0;
+  }
+  .details-hotel-wrapper {
+    position: relative;
+  }
+
+  .details-hotel-item:not(:last-child) {
+    margin-right: 34px;
+  }
+
+  .details-hotel-btn-wrap {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+/* ----------------------Фонове зображення від десктоп------------ */
+@media screen and (min-width: 1280px) {
+  .details-hotel-wrap {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../../img/details-of-our-hotel/hotel-details-desktop/hotel-details-bcg-desktop.jpg);
+    max-width: 1280px;
+  }
+}
+
+@media (min-device-pixel-ratio: 2) and (min-width: 1280px),
+  (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px),
+  (min-resolution: 192dpi) and (min-width: 1280px),
+  (min-resolution: 2dppx) and (min-width: 1280px) {
+  .details-hotel-wrap {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../../img/details-of-our-hotel/hotel-details-desktop/hotel-details-bcg-desktop@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .details-hotel-contant {
+    padding-right: 22.8%;
+  }
+
+  .details-hotel-text {
+    padding-left: 32%;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .details-hotel-list {
+    margin-right: 24.1%;
+  }
+}
