@@ -1,9 +1,22 @@
+.modal {
+  display: none;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  overflow: auto;
+
+}
+
 .modal-content.show {
   animation-name: slide-in;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-out;
 }
 
 .modal-content.hide {
   animation-name: slide-out;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-out;
 }
 
 @keyframes slide-in {

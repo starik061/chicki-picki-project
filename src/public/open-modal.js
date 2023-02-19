@@ -1,28 +1,36 @@
-const openModalBtn = document.getElementById("open-modal-btn");
-const modal = document.getElementById("modal");
-const modalContent = modal.querySelector(".modal-content");
-const closeBtn = modal.querySelector(".close");
+$(document).ready(function() {
+  const $openModalBtns = $(".open-modal-btn");
+  const $modals = $(".modal");
+  const $closeBtns = $(".close");
 
-openModalBtn.addEventListener("click", function() {
-  modal.style.display = "block";
-  modalContent.classList.remove("hide");
-  modalContent.classList.add("show");
-});
+  $openModalBtns.on("click", function() {
+    const modalTarget = $(this).data("modal-target");
+    const $modal = $("#" + modalTarget);
+    const $modalContent = $(".modal-content", $modal);
 
-closeBtn.addEventListener("click", function() {
-  modalContent.classList.remove("show");
-  modalContent.classList.add("hide");
-  setTimeout(function() {
-    modal.style.display = "none";
-  }, 400);
-});
+    $modal.show();
+    $modalContent.removeClass("hide").addClass("show");
+  });
 
-window.addEventListener("click", function(event) {
-  if (event.target == modal) {
-    modalContent.classList.remove("show");
-    modalContent.classList.add("hide");
+  $closeBtns.on("click", function() {
+    const modalTarget = $(this).data("modal-target");
+    const $modal = $("#" + modalTarget);
+    const $modalContent = $(".modal-content", $modal);
+
+    $modalContent.removeClass("show").addClass("hide");
     setTimeout(function() {
-      modal.style.display = "none";
+      $modal.hide();
     }, 400);
-  }
+  });
+
+  $modals.on("click", function(event) {
+    if (event.target === this) {
+      const $modalContent = $(".modal-content", $(this));
+
+      $modalContent.removeClass("show").addClass("hide");
+      setTimeout(function() {
+        $(this).hide();
+      }.bind(this), 400);
+    }
+  });
 });
