@@ -24,6 +24,7 @@
     line-height: 1;
     letter-spacing: 0.3em;
     margin-bottom: 12px;
+    color: #494848;
 }
 
 /* tablet screen , desktop screen */
@@ -104,7 +105,7 @@
 @media screen and (min-width:1024px) {
 
     .second-part {
-       
+       margin-top: 142px;
 
     }
 }
@@ -129,7 +130,7 @@
 
     .restaurant-first-card {
         position: absolute;
-            left: 640px;
+            left: 512px;
             top: -32px;
         
 
@@ -157,7 +158,8 @@
 @media screen and (min-width:1024px) {
 
     .section-about-restaurant {
-        
+        padding-top: 120px;
+        padding-bottom: 32px;
 
 
     }
