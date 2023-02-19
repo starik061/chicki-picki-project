@@ -168,15 +168,17 @@ color: var(--black-color);
   }
 }
 .book-table-list {
-    width: 320px;
+    width: 290px;
    list-style: none;
    margin-bottom: 20px;
+   text-align: initial;
 }
 
 @media (min-width: 414px) {
   .book-table-list {
-      width: 384px;
+      width: 100%;
       list-style: none;
+      text-align: initial;
     }
 }
 
