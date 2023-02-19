@@ -17,26 +17,26 @@
     />
     <!-- -------------------------для слайдера Slick------- -->
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-  <!-- ----------------------------------------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ----------------------------------------------- -->
     
     
     <script type="module" crossorigin src="/chicki-picki-project/assets/main-20a56e32.js"></script>
     <link rel="stylesheet" href="/chicki-picki-project/assets/main-2a04a4f9.css">
-    <link rel="stylesheet" href="/chicki-picki-project/assets/index-3b255284.css">
+    <link rel="stylesheet" href="/chicki-picki-project/assets/index-e7c81e03.css">
   </head>
   <body>
     <a href="room-page.html">Room Page</a>
@@ -712,7 +712,127 @@
   </div>
 </footer>
 
-<!-- ---------------скрипт бібліотеки для слайдера Slick---- -->
+    
+ <section class="section-modal-book-table">
+    <link rel="stylesheet" href="../../css/modals/book-table-modal.css">
+    <link rel="stylesheet" href="../../css/base/variables.css">
+    <link rel="stylesheet" href="../../css/base/reset_and_global_styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <div class="book-table-modal"> 
+        <div class="block-close">
+            <button type="button" class="modal-table-close"><svg>
+            <use href="../../img/icons.svg#icon-close-modal-tabel"></use>
+        </svg></button>
+    </div>
+       
+       
+    <form class="book-table-form">
+        <div class="main-block-modal-tabel">
+            <p class="title-table-mod">Забронювати столик</p>
+            <ul class="book-table-list">
+        
+                    <li class="book-table-item">
+                        <div class="book-table-item">
+                            <input type="text" name="name" id="name-of-customers" class="book-table-inpu" placeholder="Ваше ім’я" required>
+                            <div><label class="sub-text" for="name-of-customers">На кого забронювати столик?</label>
+                            </div>
+                        </div> 
+                        <div class="book-table-item">
+                        <div>
+                            <input type="tel" name="phone" id="phone" class="book-table-inpu" placeholder="+38 (___) ___-__-__" required>
+                            <div><label class="sub-text" for="phone">Номер телефону</label>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </li>
+                
+                <li class="book-table-item">
+                    <div class="custom-select">
+                        <select name="table" id="size-tabel">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div class="book-tablet-sub-title">
+                        <label class="sub-text" for="size-table">Столик на яку кількість осoб?</label>
+                    </div>
+                        <div class="custom-select">
+                            <select name="date" id="book-date">
+                                <option value="today">Сьогодні</option>
+                                <option value="tomorow">Завтра</option>
+                                <option value="after tomorow">Післязавтра</option>
+                            </select>
+                        </div>
+                        <div class="book-tablet-sub-title">
+                            <label class="sub-text" for="date-of-order">На яку дату бронювати?</label>
+                        </div>
+                </li>
+            </ul>
+            <button type="submit" class="make-book">Оформити бронювання</button>
+        </div>
+    </form>
+    
+</div>
+
+    <script src="../../public/modal-table.js"></script>
+</section>
+
+    
+    <section class="section-modal-book-table">
+  <link rel="stylesheet" href="../../css/modals/room-price-modal.css" />
+  <link rel="stylesheet" href="../../css/base/variables.css" />
+  <link rel="stylesheet" href="../../css/base/reset_and_global_styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <div class="book-table-modal">
+    <div class="block-close">
+      <button type="button" class="modal-table-close">
+        <svg>
+          <use href="../../img/icons.svg#icon-close-modal-tabel"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="main-block-modal-tabel">
+      <p class="title-table-mod">ЦІНИ НА НОМЕР</p>
+
+      <p class="sub-title-mod-price">Двомісний люкс</p>
+
+      <form class="book-table-form">
+        <ul class="book-table-list">
+          <li class="book-tablet-sub-title">
+            <span class="select-title">Категорія номеру</span>
+            <div class="custom-select">
+              <select name="table" id="size-tabel">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="1">5</option>
+              </select>
+            </div>
+            <label class="sub-text" for="size-table">Кількість ночей</label>
+          </li>
+          <li class="book-tablet-output">
+            <div class="con-output">
+              <p class="output" id="result">1000</p>
+            </div>
+            <p class="sub-text">грн</p>
+          </li>
+        </ul>
+        <button type="submit" class="make-book" id="convert">
+          ЗАБРОНЮВАТИ НОМЕР
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="../../public/modal-table.js"></script>
+</section>
+
+
+    <!-- ---------------скрипт бібліотеки для слайдера Slick---- -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
       integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
@@ -725,8 +845,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-  <!-- -------------------------------- -->
-    
+    <!-- -------------------------------- -->
+
     
   </body>
 </html>
