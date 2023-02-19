@@ -1,8 +1,3 @@
-.modal {
-
-
-}
-
 .modal-content.show {
   animation-name: slide-in;
   animation-duration: 0.4s;

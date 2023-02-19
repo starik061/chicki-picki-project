@@ -8,7 +8,7 @@ $(document).ready(function() {
     const $modal = $("#" + modalTarget);
     const $modalContent = $(".modal-content", $modal);
 
-    $modal.show();
+    $modal.css("display", "block");
     $modalContent.removeClass("hide").addClass("show");
   });
 
@@ -19,7 +19,7 @@ $(document).ready(function() {
 
     $modalContent.removeClass("show").addClass("hide");
     setTimeout(function() {
-      $modal.hide();
+      $modal.css("display", "none");
     }, 400);
   });
 
@@ -29,7 +29,7 @@ $(document).ready(function() {
 
       $modalContent.removeClass("show").addClass("hide");
       setTimeout(function() {
-        $(this).hide();
+        $(this).css("display", "none");
       }.bind(this), 400);
     }
   });
