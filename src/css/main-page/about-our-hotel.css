@@ -45,6 +45,9 @@
     font-size: 12px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    width: 200px;
+    margin-left: auto;
+    text-align: left;
    
     
 }
@@ -55,8 +58,9 @@
     .section-restaurant-text {
         font-size: 16px;
         height: 80px;
-        width: 419px;
+        width: 370px;
         margin-left: auto;
+        text-align: left;
         
         
 
@@ -67,18 +71,11 @@
 @media screen and (min-width:1280px) {
 
     .section-restaurant-text {
-        width: 488px;
+        width: 405px;
         height: 88px;
         margin-left: auto;
+        text-align: left;
        
-
-    }
-}
-
-@media screen and (min-width:1024px) {
-
-    .tablet-desktop {
-        display: none;
 
     }
 }
@@ -89,9 +86,9 @@
     font-size: 12px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    width: 163px;
+    width: 133px;
     height: 120px;
-    margin-left: 20px;
+    
 }
 
 /* tablet screen */
@@ -99,8 +96,10 @@
 
     .restaurant-text-accent {
         font-size: 16px;
-        width: 312px;
+        width: 265px;
         height: 122px;
+        margin-right: 48px;
+        margin-left: 0;
 
     }
 }
@@ -109,7 +108,9 @@
 @media screen and (min-width:1280px) {
 
     .restaurant-text-accent {
-        margin-left: 320px;
+        width: 265px;
+        margin-right: 45px;
+        margin-left: 0;
 
     }
 }
@@ -118,6 +119,7 @@
     display: flex;
     align-items: center;
     margin-top: 32px;
+    justify-content: space-between;
 }
 
 /* tablet screen */
