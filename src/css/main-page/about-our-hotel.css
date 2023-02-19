@@ -55,7 +55,7 @@
 /* tablet screen */
 @media screen and (min-width:1024px) {
 
-    .section-restaurant-text {
+    .hotel-text {
         font-size: 16px;
         height: 80px;
         width: 370px;
@@ -70,7 +70,7 @@
 /* desktop screen */
 @media screen and (min-width:1280px) {
 
-    .section-restaurant-text {
+    .hotel-text {
         width: 405px;
         height: 88px;
         margin-left: auto;
