@@ -49,6 +49,7 @@
   .main-block-modal-tabe-pricel{
     width: 592px;
     margin: 0;
+    padding: 0px 45px;
   }
 }
 .book-table-modal-price {
@@ -74,7 +75,7 @@
   
 @media (min-width: 1024px){
   .book-table-modal-price{
-    width: 637px;
+    width: 682px;
    
         padding-bottom: 60px;
   }
@@ -318,9 +319,9 @@ transition-timing-function: var(--transition-dur);
 }
         @media (min-width: 1024px) {
           .con-output-price{
-            padding: 13px 12px 14px 12px;
+            padding: 18px 12px;
             margin-top: 40px;
-            width: 262px;
+            width: 264px;
           }
         }
 
