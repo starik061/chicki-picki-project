@@ -3,15 +3,42 @@
   padding-bottom: 32px;
 }
 
+@media screen and (min-width: 1024px) {
+  .luxe-room {
+    padding-top: 62px;
+    padding-bottom: 40px;
+  }
+}
+
+.room-description {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1024px) {
+  .room-description {
+    display: flex;
+    min-height: 495px;
+  }
+}
+
 .section-text {
   margin-bottom: 32px;
 }
 
 .top-title-room {
+  font-weight: 400;
   font-size: 20px;
   line-height: 1.15;
   color: var(--grey-subtitle-color);
   margin-bottom: 8px;
+}
+
+@media screen and (min-width: 1024px) {
+  .top-title-room {
+    font-size: 32px;
+    line-height: 1.15;
+    margin-bottom: 4px;
+  }
 }
 
 .main-title-room {
@@ -24,6 +51,19 @@
   margin-bottom: 32px;
 }
 
+@media screen and (min-width: 1024px) {
+  .main-title-room {
+    font-size: 64px;
+    margin-bottom: 62px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .main-title-room {
+    margin-bottom: 72px;
+  }
+}
+
 .title-name-room {
   font-weight: 700;
   font-size: 24px;
@@ -33,7 +73,21 @@
   margin-bottom: 12px;
 }
 
-.description-room {
+@media screen and (min-width: 1024px) {
+  .title-name-room {
+    font-size: 30px;
+    line-height: 1.13;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .title-name-room {
+    font-size: 36px;
+  }
+}
+
+.text-room {
   font-weight: 600;
   font-size: 12px;
   line-height: 1.25;
@@ -41,8 +95,19 @@
   color: var(--main-text-color);
 }
 
-.room-description {
-  margin-bottom: 32px;
+@media screen and (min-width: 1024px) {
+  .text-room {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 440px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .text-room {
+    font-weight: 700;
+    max-width: 400px;
+  }
 }
 
 .room-photo {
@@ -50,24 +115,80 @@
   min-height: 322px;
 }
 
+@media screen and (min-width: 1024px) {
+  .room-photo {
+    min-height: 322px;
+    min-width: 465px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .room-photo {
+    min-height: 574px;
+    min-width: 460px;
+  }
+}
+
 .room-photo-img {
   position: absolute;
   right: 0;
   width: 244px;
   height: 322px;
+
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 1024px) {
+  .room-photo-img {
+    height: 524px;
+    width: 400px;
+    top: -62px;
+    left: 0;
+
+    box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .room-photo-img {
+    height: 574px;
+    width: 460px;
+    left: 154px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .general-container {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .slider-photo {
   position: relative;
-  min-height: 254px;
+  min-height: 194px;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider-photo {
+    margin-bottom: 32px;
+  }
 }
 
 .slider-photo-list {
   position: absolute;
   display: flex;
-  align-items: center;
-  left: -218px;
+  left: -120px;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider-photo-list {
+    position: relative;
+    left: auto;
+  }
 }
 
 .slider-photo-item {
@@ -78,11 +199,39 @@
   margin-right: 15px;
 }
 
+@media screen and (min-width: 1024px) {
+  .slider-photo-item:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+
+.slider-photo-img {
+  width: 194px;
+  height: 194px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 1280px) {
+  .slider-photo-img {
+    width: 254px;
+    height: 254px;
+  }
+}
+
 .slider-arrow {
   margin-bottom: 20px;
 }
 
-.slider-arrow-button:not(last-child) {
+@media screen and (min-width: 1024px) {
+  .slider-arrow {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 0;
+  }
+}
+
+.slider-arrow-button:not(:last-child) {
   margin-right: 32px;
 }
 
@@ -92,8 +241,26 @@
   align-items: center;
 }
 
+@media screen and (min-width: 1024px) {
+  .filter-list-button {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .filter-list-button {
+    padding-top: 70px;
+  }
+}
+
 .filter-item-button:not(:last-child) {
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .filter-item-button:not(:last-child) {
+    margin-bottom: 16px;
+  }
 }
 
 .filter-button {
@@ -105,11 +272,20 @@
   color: var(--yellow-color);
 
   background: var(--black-color);
-  border: 2px solid var(--main-background-color);
+  border: 2px solid var(--white-color);
   border-radius: 25px;
 
   padding: 14px 64px;
   white-space: nowrap;
+
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background: var(--white-color);
+  border: 2px solid var(--yellow-color);
+  border-radius: 25px;
 }
 
 .filter-button.price-button {
