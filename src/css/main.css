@@ -7,3 +7,6 @@
 @import url('./main-page/details-of-our-hotel.css');
 @import url('./main-page/details-of-our-restaurant.css');
 @import url('./main-page/footer');
+@import url('./modals/book-table-modal.css');
+@import url('./modals/book-room-modal.css');
+@import url('./modals/room-price-modal.css');
