@@ -1,5 +1,5 @@
-import './js/slider.js';
-import './js/swiper-restaurant.js';
+// import './js/slider.js';
+// import './js/swiper-restaurant.js';
 import './js/open-modal.js';
 import './js/modal-table.js';
 
