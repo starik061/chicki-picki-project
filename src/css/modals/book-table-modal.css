@@ -30,12 +30,12 @@
 
 @keyframes slide-out {
   from {
-    transform: translateY(-50%);
+    transform: translateY(50%);
     opacity: 1;
   }
 
   to {
-    transform: translateY(-50%);
+    transform: translateY(-100%);
     opacity: 0;
   }
 }
