@@ -256,12 +256,12 @@ img {
 
 .slider {
     position: relative;
-    
 }
 
 .slider .slider__item {
     opacity: 0.5;
-    margin: 20px; 
+    margin: 20px;
+
 }
 
 .slider .slider__item.slick-center {
@@ -279,8 +279,8 @@ img {
     width: 32px;
     background-repeat: no-repeat;
     text-indent: 200%;
-        white-space: nowrap;
-        overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .slider .slick-prev {
