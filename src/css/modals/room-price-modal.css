@@ -340,20 +340,8 @@ letter-spacing: 0.05em;
 }
 
 
-/* The container must be positioned relative: */
-.custom-select-price{
-margin-bottom: 8px;
-    border: 1px solid var(--brown-color);
-    width: 320px;
-    position: relative;
-   
-    font-family: 'Times New Roman';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 23px;
-letter-spacing: 0.05em;
-  }
+
+
 @media (min-width: 414px) {
   .custom-select-price {
       width: 384px;
@@ -365,7 +353,5 @@ letter-spacing: 0.05em;
       }
     }
   
-  .custom-select-price select {
-    display: none; /*hide original SELECT element: */
-  }
+ 
   

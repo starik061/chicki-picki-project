@@ -280,7 +280,11 @@ padding: 17px 12px;
 
 /* The container must be positioned relative: */
 .custom-select {
-
+margin-bottom: 8px;
+  border: 1px solid var(--brown-color);
+  width: 320px;
+  position: relative;
+  
     border: 1px solid var(--brown-color);
 
     position: relative;
