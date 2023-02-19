@@ -75,7 +75,7 @@
 @media (min-width: 1024px){
   .book-table-modal-price{
     width: 637px;
-      padding-left: 60px;
+   
         padding-bottom: 60px;
   }
 }
@@ -286,14 +286,14 @@ transition-timing-function: var(--transition-dur);
       margin-top: 20px;
   
       padding: 20px 43px;
-      width: 384px;
+      width: 100%;
      
     }
 }
 
 @media (min-width: 1024px) {
   .make-book-price{
-    width: 592px;
+    width: 100%;
     display: flex;
     justify-content: center;
   }
@@ -343,12 +343,13 @@ letter-spacing: 0.05em;
 
 @media (min-width: 414px) {
   .custom-select {
-      width: 384px;
+      width: 352px;
     }
 }
     @media (min-width: 1024px) {
       .custom-select{
-        width: 286px;
+        width: 264px;
+        height: 66px;
       }
     }
   
