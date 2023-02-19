@@ -321,7 +321,7 @@ transition-timing-function: var(--transition-dur);
           .con-output-price{
             padding: 18px 12px;
             margin-top: 40px;
-            width: 264px;
+            width: 269px;
           }
         }
 
@@ -349,7 +349,7 @@ letter-spacing: 0.05em;
 }
     @media (min-width: 1024px) {
       .custom-select{
-        width: 264px;
+        width: 269px;
         height: 66px;
       }
     }
