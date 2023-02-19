@@ -1,3 +1,5 @@
+import './js/slider.js';
+
 ///////////////Слайдер для секцій "детально про готель і ресторан"////////////////
 $('.details-slider').slick({
     infinite: true,
@@ -7,4 +9,3 @@ $('.details-slider').slick({
     nextArrow: "<img src='./img/details-of-our-restaurant/cil_arrow-right.svg' class='next' alt='right'>"
   });
 
-import './js/slider.js';
