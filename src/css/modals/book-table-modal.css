@@ -90,7 +90,7 @@
 
 @media (min-width: 1024px) {
   .book-table-modal {
-    width: 637px;
+    width: 712px;
     padding-left: 60px;
     padding-bottom: 60px;
   }
@@ -214,13 +214,13 @@ padding: 17px 12px;
 
 @media (min-width: 414px) {
   .book-table-inpu{
-    width: 100%;
+    width: 352px;
     margin-bottom: 8px;
   }
 }
 @media (min-width: 1024px) {
   .book-table-inpu {
-      height: 64px;
+      height: 66px;
       margin-bottom: 8px;
     }
 }
@@ -272,7 +272,7 @@ padding: 17px 12px;
   
     @media (min-width: 1024px) {
       .make-book {
-        width: 592px;
+        width: 100%;
         display: flex;
         justify-content: center;
       }
