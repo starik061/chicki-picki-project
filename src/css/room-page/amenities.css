@@ -159,6 +159,7 @@
     max-width: 1140px;
   }
   .amenities__text-box {
+    display: flex;
     gap: 160px;
   }
 }
