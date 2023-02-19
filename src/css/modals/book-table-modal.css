@@ -220,6 +220,7 @@ padding: 17px 12px;
 }
 @media (min-width: 1024px) {
   .book-table-inpu {
+    width: 288px;
       height: 66px;
       margin-bottom: 8px;
     }
