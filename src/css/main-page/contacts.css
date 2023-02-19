@@ -1,4 +1,14 @@
+.contacts--section {
+  background-color: var(--main-background-color);
+  padding-top: 56px;
+  padding-bottom: 40px;
+}
+/* .contacts--list {
+  padding-left: 15px;
+  padding-right: 15px;
+} */
 .contacts--title {
+  margin-bottom: 12px;
   font-family: 'Film P3';
   font-size: 40px;
   font-weight: 700;
@@ -9,6 +19,7 @@
 }
 
 .contacts--subtitle {
+  margin-bottom: 16px;
   font-family: 'Montserrat';
   font-size: 16px;
   font-weight: 600;
@@ -26,4 +37,120 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--brown-color);
+}
+
+.contacts--tel {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  flex-grow: 1;
+  width: 100%;
+  max-width: 260px;
+  padding: 11px 8px 9px 14px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--grey-title-color);
+}
+
+.contacts--tel__rest {
+  display: flex;
+  align-items: center;
+  max-width: 144px;
+  max-height: 40px;
+  padding: 11px 8px 9px 14px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--grey-title-color);
+  border: 0.5px solid var(--yellow-color);
+}
+
+.contacts--tel:first-child {
+  max-width: 144px;
+}
+
+.contacts--tel:last-child {
+  max-width: 260px;
+}
+.contacts--location {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  /* margin: 0 15px 32px 124px; */
+  padding: 8px 33px 7px 16px;
+  width: 100%;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: var(--grey-title-color);
+}
+
+.contacts--tel,
+.contacts--location {
+  border: 0.5px solid var(--yellow-color);
+}
+
+/* ПОЗИЦІЮВАННЯ */
+
+/* .contacts-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 384px;
+}
+
+@media (min-width: 384px) {
+  .contacts-container {
+    width: 384px;
+  }
+} */
+
+.address {
+  margin-bottom: 32px;
+}
+.contacts--item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 384px;
+  margin-bottom: 16px;
+}
+
+.contacts--item:first-child,
+.contacts--item:nth-child(2) {
+  max-height: 40px;
+}
+
+.contacts--item:last-child {
+  margin-left: 118px;
+  margin-bottom: 0;
+  max-width: 260px;
+}
+
+.contacts--label__rest {
+  margin-right: 22px;
+}
+
+.contacts--label__hotel {
+  margin-right: 50px;
+}
+
+.contacts--tel__second {
+  margin-left: 12px;
+}
+
+.location--label {
+  max-width: 183px;
+  max-height: 76px;
+}
+
+.map--container {
+  max-width: 384px;
 }
