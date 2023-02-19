@@ -7,4 +7,4 @@ $('.details-slider').slick({
     nextArrow: "<img src='./img/details-of-our-restaurant/cil_arrow-right.svg' class='next' alt='right'>"
   });
 
-import './slider.js';
+import './js/slider.js';
