@@ -342,12 +342,12 @@ letter-spacing: 0.05em;
 
 
 @media (min-width: 414px) {
-  .custom-select-price {
+  .custom-select {
       width: 384px;
     }
 }
     @media (min-width: 1024px) {
-      .custom-select-price{
+      .custom-select{
         width: 286px;
       }
     }
