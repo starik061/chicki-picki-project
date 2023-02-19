@@ -23,19 +23,19 @@
   }
 
   to {
-    transform: translateY(0);
+    transform: translateY(-50);
     opacity: 1;
   }
 }
 
 @keyframes slide-out {
   from {
-    transform: translateY(0);
+    transform: translateY(-50%);
     opacity: 1;
   }
 
   to {
-    transform: translateY(50%);
+    transform: translateY(-50%);
     opacity: 0;
   }
 }
