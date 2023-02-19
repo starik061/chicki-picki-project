@@ -182,6 +182,7 @@
 @media screen and (min-width:1024px) {
 
     .section-about-hotel {
+        position: relative;
         padding-top: 120px;
         padding-bottom: 32px;
 
