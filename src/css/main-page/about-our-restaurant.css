@@ -1,5 +1,6 @@
 
 .section-about-restaurant {
+    position: relative;
     padding-top:16px ;
     padding-bottom:20px ;
 }
@@ -138,6 +139,7 @@
 
     .second-part {
        margin-top: 142px;
+       justify-content: flex-start;
 
     }
 }
