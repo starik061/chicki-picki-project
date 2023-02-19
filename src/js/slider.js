@@ -1,4 +1,4 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
   $(".slider").slick({
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -8,7 +8,7 @@ $(document).ready(function () {
     // autoplay: true,
     // autoplaySpeed: 1500,
   });
-});
+});*/
 $('.details-slider').slick({
     infinite: true,
     slidesToShow: 1,
