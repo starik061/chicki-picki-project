@@ -2,7 +2,7 @@
 import './js/swiper-restaurant.js';
 import './js/open-modal.js';
 import './js/modal-table.js';
-import './js/slider.js';
+//import './js/slider.js';
 ///////////////Слайдер для секцій "детально про готель і ресторан"////////////////
 /*$('.details-slider').slick({
     infinite: true,
