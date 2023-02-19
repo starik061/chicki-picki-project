@@ -1,0 +1,239 @@
+/* Підзаголовок секції ресторану */
+/* Mobile screen */
+.subtitle-kitchen {
+    color: #B4B4B4;
+    font-size: 20px;
+    line-height: 1.1;
+    margin-bottom: 12px;
+}
+
+/* tablet screen , desktop screen */
+@media screen and (min-width:1024px) {
+
+    .subtitle-kitchen {
+        font-size: 32px;
+        margin-bottom: 4px;
+    }
+}
+
+/* mobile screen */
+.title-kitchen {
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: 0.3em;
+    margin-bottom: 12px;
+    color: #494848;
+}
+
+/* tablet screen , desktop screen */
+@media screen and (min-width:1024px) {
+
+    .title-kitchen {
+        font-size: 64px;
+        margin-bottom: 24px;
+    }
+}
+
+.section-kitchen-text {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    width: 210px;
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .section-kitchen-text {
+        font-size: 16px;
+        width: 370px;
+        height: 80px;
+
+    }
+}
+
+/* desktop screen */
+@media screen and (min-width:1280px) {
+
+    .section-kitchen-text {
+        width: 450px;
+        height: 60px;
+
+    }
+}
+
+.kitchen-text-accent {
+    color: var(--brown-color);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    width: 131px;
+    height: 120px;
+    margin-left: 20px;
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .kitchen-text-accent {
+        font-size: 16px;
+        width: 265px;
+        height: 122px;
+
+    }
+}
+
+.second-part {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .second-part {
+       margin-top: 142px;
+
+    }
+}
+
+/* tablet screen */
+@media screen and (min-width:1280px) {
+
+    .second-part {
+        margin-top: 162px;
+
+    }
+}
+
+.kitchen-first-card {
+    display: flex;
+    justify-content: right;
+    margin-top: 28px;
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .kitchen-first-card {
+        position: absolute;
+            left: 512px;
+            top: -32px;
+        
+
+    }
+}
+
+@media screen and (min-width:1100px) {
+
+    .kitchen-first-card {
+        position: absolute;
+        left: 600px;
+        top: -32px;
+
+
+    }
+}
+
+/* Desktop screen */
+@media screen and (min-width:1280px) {
+
+    .kitchen-first-card {
+       position: absolute;
+       left: 640px;
+       top: -32px;
+
+    }
+}
+
+@media screen and (min-width:1350px) {
+
+    .kitchen-first-card {
+        position: absolute;
+        left: 770px;
+        top: -32px;
+
+    }
+}
+
+.section-about-kitchen {
+    padding-top: 16px;
+    padding-bottom: 20px;
+
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .section-about-kitchen {
+        padding-top: 120px;
+        padding-bottom: 32px;
+
+
+    }
+}
+
+/* Desktop screen */
+@media screen and (min-width:1280px) {
+
+    .section-about-kitchen {
+        padding-top: 120px;
+        padding-bottom: 104px;
+
+    }
+}
+
+/* Slider */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    width: 100%;
+    margin-left: auto;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider .slider__item {
+    opacity: 0.5;
+    margin: 20px;
+
+}
+
+.slider .slider__item.slick-center {
+    opacity: 1;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    cursor: pointer;
+    font-size: 25px;
+    color: #330867;
+    padding: 3px 10px;
+    bottom: -50px;
+    background-size: contain;
+    width: 32px;
+    background-repeat: no-repeat;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.slider .slick-prev {
+    right: 70px;
+    background-image: url(../../img/about-restaurant-images/arrow-left.svg);
+}
+
+.slider .slick-next {
+    right: 0px;
+    background-image: url(../../img/about-restaurant-images/arrow-right.svg);
+}
+

@@ -5,3 +5,6 @@
 @import url('./room-for-3.css');
 @import url('./room-for-2.css');
 @import url('../main-page/footer');
+@import url('../modals/book-table-modal.css');
+@import url('../modals/book-room-modal.css');
+@import url('../modals/room-price-modal.css');
