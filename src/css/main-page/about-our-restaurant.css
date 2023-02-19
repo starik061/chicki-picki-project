@@ -1,4 +1,10 @@
 
+
+img {
+    margin: 0;
+}
+
+
 .section-about-restaurant {
     position: relative;
     padding-top:16px ;
@@ -254,8 +260,7 @@
 
 .slider .slider__item {
     opacity: 0.5;
-    margin: 20px;
-    
+    margin: 20px; 
 }
 
 .slider .slider__item.slick-center {
@@ -286,5 +291,8 @@
     right: 0px;
     background-image: url(../../img/about-restaurant-images/arrow-right.svg);
 }
+
+
+
 
 
