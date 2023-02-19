@@ -256,6 +256,7 @@ img {
 
 .slider {
     position: relative;
+    
 }
 
 .slider .slider__item {
@@ -291,6 +292,7 @@ img {
     right: 0px;
     background-image: url(../../img/about-restaurant-images/arrow-right.svg);
 }
+
 
 
 
