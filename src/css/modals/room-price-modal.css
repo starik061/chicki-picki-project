@@ -54,7 +54,7 @@
   }
 }
 .book-table-modal-price {
-    /* padding: 15px;
+    padding: 15px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -62,10 +62,8 @@
     
     text-align: center;
 
-    width: 100%; */
-    display: block;
-    margin: 0 auto;
-
+    width: 100%;
+    
     background-color:var(--main-background-color);
 }
 
