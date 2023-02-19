@@ -74,7 +74,7 @@
     font-size: 12px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    width: 244px;
+    width: 200px;
 }
 
 /* tablet screen */
@@ -82,7 +82,7 @@
 
     .section-restaurant-text {
         font-size: 16px;
-        width: 412px;
+        width: 370px;
         height: 80px;
         
     }
@@ -92,7 +92,7 @@
 @media screen and (min-width:1280px) {
 
     .section-restaurant-text {
-        width: 518px;
+        width: 450px;
         height: 60px;
 
     }
@@ -111,7 +111,7 @@
     font-size: 12px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    width: 163px;
+    width: 131px;
     height: 120px;
     margin-left: 20px;
 }
@@ -121,7 +121,7 @@
 
     .restaurant-text-accent {
         font-size: 16px;
-        width: 312px;
+        width: 265px;
         height: 122px;
     }
 }
@@ -193,6 +193,18 @@
        top: -32px;
        left: 640px;
        margin-top: 0;
+    }
+}
+
+/* Desktop screen */
+@media screen and (min-width:1350px) {
+
+    .restaurant-first-card {
+
+        position: absolute;
+        top: -32px;
+        left: 770px;
+        margin-top: 0;
     }
 }
 
