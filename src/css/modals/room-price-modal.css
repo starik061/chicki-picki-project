@@ -36,6 +36,8 @@
 .main-block-modal-tabel-price{
   width: 100%;
   margin: auto;
+    margin: 0;
+      padding: 0px 45px;
 }
 
 @media (min-width: 414px) {
