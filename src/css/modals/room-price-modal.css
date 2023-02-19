@@ -37,18 +37,17 @@
   width: 100%;
   margin: auto;
     margin: 0;
-      padding: 0px 45px;
 }
 
 @media (min-width: 414px) {
-  .main-block-modal-tabe-pricel {
+  .main-block-modal-tabe-price {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .main-block-modal-tabe-pricel{
+  .main-block-modal-tabe-price{
     width: 592px;
     margin: 0;
     padding: 0px 45px;
