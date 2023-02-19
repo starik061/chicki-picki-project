@@ -282,7 +282,7 @@ padding: 17px 12px;
 .custom-select {
 margin-bottom: 8px;
   border: 1px solid var(--brown-color);
-  width: 320px;
+  width: 100%;
   position: relative;
   
     border: 1px solid var(--brown-color);

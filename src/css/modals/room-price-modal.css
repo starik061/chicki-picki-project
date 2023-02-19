@@ -34,7 +34,7 @@
     background-color: var(--hero-background-color);
 }
 .main-block-modal-tabel-price{
-  width: 320px;
+  width: 100%;
   margin: auto;
 }
 
