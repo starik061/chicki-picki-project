@@ -40,6 +40,13 @@ screen and (min-resolution: 2dppx) and (max-width: 414px) {
     line-height: 1.25;
     letter-spacing: 0.01em;
     color: var(--white-address-color);
+    transition: border-color var(--transition-dur) var(--transition-func), color var(--transition-dur) var(--transition-func);
+}
+
+.hero-link-adress:hover,
+.hero-link-adress:focus {
+    border-color: var(--brown-color);
+    color: var(--yellow-color)
 }
 
 
@@ -48,6 +55,7 @@ screen and (min-resolution: 2dppx) and (max-width: 414px) {
     height: 20px;
     fill: var(--yellow-color);
     flex-shrink: 0;
+    transition: fill var(--transition-dur) var(--transition-func);
 }
 
 .hero-wrapper {
@@ -95,10 +103,11 @@ screen and (min-resolution: 2dppx) and (max-width: 414px) {
     letter-spacing: 0.02em;
     color: var(--yellow-color);
     transform: translateY(-60%);
+    transition: background-color var(--transition-dur) var(--transition-func), border-color var(--transition-dur) var(--transition-func);
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero-room-button:hover,
+.hero-room-button:focus {
     background-color: var(--white-color);
     border-color: var(--yellow-color);
 }
@@ -117,6 +126,12 @@ screen and (min-resolution: 2dppx) and (max-width: 414px) {
 .hero-social-icon {
     fill: var(--yellow-color);
     display: block;
+    transition: fill var(--transition-dur) var(--transition-func);
+}
+
+.hero-social-link:hover .hero-social-icon,
+.hero-social-link:focus .hero-social-icon {
+    fill: var(--brown-color);
 }
 
 @media screen and (max-width: 375px) {
