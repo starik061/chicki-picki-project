@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
    /* Записываем в переменные массив элементов-кнопок и подложку.
       Подложке зададим id, чтобы не влиять на другие элементы с классом overlay*/
-   var modalButtons = document.querySelectorAll('.hero-button'),
-       overlay      = document.querySelector('.overlay'),
+   var modalButtons = document.querySelectorAll('.js-open-modal'),
+       overlay      = document.querySelector('.js-overlay-modal'),
        closeButtons = document.querySelectorAll('.js-modal-close');
 
 
