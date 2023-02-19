@@ -40,14 +40,14 @@
 }
 
 @media (min-width: 414px) {
-  .main-block-modal-tabe-price {
+  .main-block-modal-tabel-price {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .main-block-modal-tabe-price{
+  .main-block-modal-tabel-price{
     width: 592px;
     margin: 0;
     padding: 0px 45px;
