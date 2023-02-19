@@ -104,29 +104,16 @@
 @media screen and (min-width:1024px) {
 
     .second-part {
-        position: relative;
-        top: -265px;
-        margin-top: 0;
+       
 
     }
 }
-
-
-
-
-
-
-
-
-
 
 /* tablet screen */
 @media screen and (min-width:1280px) {
 
     .second-part {
-        position: relative;
-        top: -325px;
-        margin-top: 0;
+        margin-top: 162px;
 
     }
 }
@@ -141,9 +128,21 @@
 @media screen and (min-width:1024px) {
 
     .restaurant-first-card {
-        position: relative;
-        top: -265px;
-        margin-top: 0;
+        position: absolute;
+            left: 640px;
+            top: -32px;
+        
+
+    }
+}
+
+/* Desktop screen */
+@media screen and (min-width:1280px) {
+
+    .restaurant-first-card {
+       position: absolute;
+       left: 640px;
+       top: -32px;
 
     }
 }
@@ -152,6 +151,26 @@
     padding-top: 16px;
     padding-bottom: 20px;
 
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .section-about-restaurant {
+        
+
+
+    }
+}
+
+/* Desktop screen */
+@media screen and (min-width:1280px) {
+
+    .section-about-restaurant {
+        padding-top: 120px;
+        padding-bottom: 104px;
+
+    }
 }
 
 /* Slider */
@@ -202,3 +221,4 @@
     right: 0px;
     background-image: url(../../img/about-restaurant-images/arrow-right.svg);
 }
+
