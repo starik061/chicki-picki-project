@@ -1,5 +1,43 @@
-body{
-    margin: 0;
+
+
+.modal {
+ 
+}
+
+.modal-content.show {
+  animation-name: slide-in;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-out;
+}
+
+.modal-content.hide {
+  animation-name: slide-out;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translate(-50%, 50%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(-50% -50);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    transform: translate(-50% -50);
+    opacity: 1;
+  }
+
+  to {
+    transform: translate(-50%, 50%);
+    opacity: 0;
+  }
 }
 
 .block-close{
@@ -28,6 +66,8 @@ body{
 }
 
 .section-modal-book-table{
+  top: 0;
+  left: 0;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -68,17 +108,19 @@ body{
     color: var(--brown-color);
 }
 .book-table-modal {
-  padding: 15px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    padding: 15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        text-align: center;
+    
+        width: 100%;
+  
+    
+      background-color: var(--main-background-color);
 
-  text-align: start;
-
-  width: 100%;
-
-  background-color: var(--main-background-color);
 }
 
 @media (min-width: 414px) {
@@ -91,7 +133,7 @@ body{
 
 @media (min-width: 1024px) {
   .book-table-modal {
-    width: 637px;
+    width: 712px;
     padding-left: 60px;
     padding-bottom: 60px;
   }
@@ -126,15 +168,17 @@ color: var(--black-color);
   }
 }
 .book-table-list {
-    width: 320px;
+    width: 290px;
    list-style: none;
    margin-bottom: 20px;
+   text-align: initial;
 }
 
 @media (min-width: 414px) {
   .book-table-list {
-      width: 384px;
+      width: 100%;
       list-style: none;
+      text-align: initial;
     }
 }
 
@@ -215,13 +259,14 @@ padding: 17px 12px;
 
 @media (min-width: 414px) {
   .book-table-inpu{
-    width: 100%;
+    width: 352px;
     margin-bottom: 8px;
   }
 }
 @media (min-width: 1024px) {
   .book-table-inpu {
-      height: 64px;
+    width: 288px;
+      height: 66px;
       margin-bottom: 8px;
     }
 }
@@ -266,14 +311,14 @@ padding: 17px 12px;
         margin-top: 20px;
   
         padding: 20px 43px;
-        width: 384px;
+        width: 100%;
   
       }
     }
   
     @media (min-width: 1024px) {
       .make-book {
-        width: 592px;
+        width: 100%;
         display: flex;
         justify-content: center;
       }
@@ -281,7 +326,11 @@ padding: 17px 12px;
 
 /* The container must be positioned relative: */
 .custom-select {
-
+margin-bottom: 8px;
+  border: 1px solid var(--brown-color);
+  width: 100%;
+  position: relative;
+  
     border: 1px solid var(--brown-color);
 
     position: relative;
@@ -327,7 +376,7 @@ height: 62px;
    
     color: #808080;
     
-    padding: 16px 12px;
+    padding: 18px 12px;
     cursor: pointer;
   }
   
