@@ -87,20 +87,6 @@
     height: 270px;
   }
 
-  .details-restaurant-list .prev,
-  .details-restaurant-list .next {
-    position: absolute;
-    top: 110%;
-    height: 32px;
-    width: 32px;
-    z-index: 3;
-    cursor: pointer;
-  }
-
-  .details-restaurant-list .next {
-    left: 96px;
-  }
-
   .details-btn {
     display: block;
     margin-left: auto;
@@ -137,6 +123,38 @@
     width: 236px;
     text-align: center;
   }
+}
+
+.details-restaurant-list>.btn-to-left {
+  position: absolute;
+  bottom: -22%;
+  display: block; 
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../../img/details-of-our-restaurant/cil_arrow-left.svg);
+  background-repeat: no-repeat;
+}
+.btn-to-left:hover,
+.btn-to-left:active {
+  background-image: url(../../img/details-of-our-restaurant/cil_arrow-left-hover.svg);
+}
+
+.details-restaurant-list>.btn-to-right {
+  position: absolute;
+
+  bottom: -22%;
+  left: 96px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../../img/details-of-our-restaurant/cil_arrow-right.svg);
+  background-repeat: no-repeat;
+}
+.details-restaurant-list>.btn-to-right:hover,
+.details-restaurant-list>.btn-to-right:active {
+  background-image: url(../../img/details-of-our-restaurant/cil_arrow-right-hover.svg);
 }
 
 /* -------------------Фонове зображення від таблет --------------- */
@@ -212,6 +230,9 @@
     position: absolute;
     top: 38%;
   }
+  .details-restaurant-list .btn-to-right {
+    left: 64px;
+  }
 }
 
 /* -------------------Фонове зображення від десктопа---------------------------- */
@@ -248,24 +269,3 @@
   }
 }
 
-.btn-to-left {
-  position: absolute;
-  z-index: 2;
-  bottom: -22%;
-  display: block;
-
-  background-color: rgba(222, 91, 100, 0.888);
-
-  width: 32px;
-  height: 32px;
-
-  cursor: pointer;
-  /* background-image: url(../../img/details-of-our-restaurant/cil_arrow-left.svg); */
-  background-repeat: no-repeat;
-
-
-}
-
-.btn-icon-arrow {
-  fill: var(--white-color);
-}
