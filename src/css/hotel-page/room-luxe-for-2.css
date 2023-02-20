@@ -149,13 +149,21 @@
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
   }
+
+  .room-photo-img.luxe {
+    top: -94px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .room-photo-img {
     height: 574px;
     width: 460px;
-    left: 154px;
+    left: 148px;
+  }
+
+  .room-photo-img.luxe {
+    left: 47px;
   }
 }
 
