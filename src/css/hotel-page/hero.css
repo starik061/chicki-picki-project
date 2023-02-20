@@ -2,16 +2,24 @@
   height: 740px;
   padding-bottom: 20px;
   padding-top: 64px;
-  background-image: linear-gradient(var(--hero-background-color), var(--hero-background-color)), url('../../img/hero-img/hero-bg-hotel-mobile.jpg');
+  background-image: linear-gradient(
+      var(--hero-background-color),
+      var(--hero-background-color)
+    ),
+    url('../../img/hero-img/hero-bg-hotel-mobile.jpg');
   background-size: cover;
   background-color: var(--hero-background-color);
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 414px),
-screen and (min-resolution: 192dpi) and (max-width: 414px),
-screen and (min-resolution: 2dppx) and (max-width: 414px) {
+  screen and (min-resolution: 192dpi) and (max-width: 414px),
+  screen and (min-resolution: 2dppx) and (max-width: 414px) {
   .hero-section-hotel {
-    background-image: linear-gradient(var(--hero-background-color), var(--hero-background-color)), url('../../img/hero-img/hero-bg-hotel-mobile@2x.jpg');
+    background-image: linear-gradient(
+        var(--hero-background-color),
+        var(--hero-background-color)
+      ),
+      url('../../img/hero-img/hero-bg-hotel-mobile@2x.jpg');
   }
 }
 
@@ -41,7 +49,6 @@ screen and (min-resolution: 2dppx) and (max-width: 414px) {
   letter-spacing: 0.01em;
   color: var(--white-address-color);
 }
-
 
 .hero-icon-map {
   width: 20px;
@@ -93,6 +100,7 @@ screen and (min-resolution: 2dppx) and (max-width: 414px) {
 }
 
 .hero-button {
+  display: inline-block;
   padding-top: 14px;
   padding-right: 24px;
   padding-bottom: 14px;
@@ -141,29 +149,45 @@ screen and (min-resolution: 2dppx) and (max-width: 414px) {
 
 @media screen and (min-width: 415px) {
   .hero-section-hotel {
-    background-image: linear-gradient(var(--hero-background-color), var(--hero-background-color)), url('../../img/hero-img/hero-bg-hotel-tabl.jpg');
+    background-image: linear-gradient(
+        var(--hero-background-color),
+        var(--hero-background-color)
+      ),
+      url('../../img/hero-img/hero-bg-hotel-tabl.jpg');
   }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 415px),
-screen and (min-resolution: 192dpi) and (min-width: 415px),
-screen and (min-resolution: 2dppx) and (min-width: 415px) {
+  screen and (min-resolution: 192dpi) and (min-width: 415px),
+  screen and (min-resolution: 2dppx) and (min-width: 415px) {
   .hero-section-hotel {
-    background-image: linear-gradient(var(--hero-background-color), var(--hero-background-color)), url('../../img/hero-img/hero-bg-hotel-tabl@2x.jpg');
+    background-image: linear-gradient(
+        var(--hero-background-color),
+        var(--hero-background-color)
+      ),
+      url('../../img/hero-img/hero-bg-hotel-tabl@2x.jpg');
   }
 }
 
 @media screen and (min-width: 1025px) {
   .hero-section-hotel {
-    background-image: linear-gradient(var(--hero-background-color), var(--hero-background-color)), url('../../img/hero-img/hero-bg-hotel-desk.jpg');
+    background-image: linear-gradient(
+        var(--hero-background-color),
+        var(--hero-background-color)
+      ),
+      url('../../img/hero-img/hero-bg-hotel-desk.jpg');
   }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1025px),
-screen and (min-resolution: 192dpi) and (min-width: 1025px),
-screen and (min-resolution: 2dppx) and (min-width: 1025px) {
+  screen and (min-resolution: 192dpi) and (min-width: 1025px),
+  screen and (min-resolution: 2dppx) and (min-width: 1025px) {
   .hero-section-hotel {
-    background-image: linear-gradient(var(--hero-background-color), var(--hero-background-color)), url('../../img/hero-img/hero-bg-hotel-desk@2x.jpg');
+    background-image: linear-gradient(
+        var(--hero-background-color),
+        var(--hero-background-color)
+      ),
+      url('../../img/hero-img/hero-bg-hotel-desk@2x.jpg');
   }
 }
 
@@ -184,7 +208,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1025px) {
     bottom: 50px;
     width: 285px;
     font-size: 16px;
-
   }
 
   .hero-title {
@@ -240,5 +263,4 @@ screen and (min-resolution: 2dppx) and (min-width: 1025px) {
     padding-left: 35px;
     padding-right: 35px;
   }
-
 }

@@ -1,0 +1,115 @@
+.room-for-3 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: var(--secondary-background-color);
+}
+
+@media screen and (min-width: 1024px) {
+  .room-description.reverse-section {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section-text.reverse-section {
+    text-align: end;
+  }
+}
+
+.top-title-room.reverse-section {
+  text-align: end;
+}
+
+.main-title-room.reverse-section {
+  text-align: end;
+  margin-right: -20px;
+}
+
+.title-name-room.reverse-section {
+  text-align: end;
+}
+
+@media screen and (min-width: 1024px) {
+  .title-name-room.reverse-section {
+    text-align: left;
+  }
+}
+
+.text-room.reverse-section {
+  max-width: 242px;
+  margin-left: 52px;
+}
+
+@media screen and (min-width: 1024px) {
+  .text-room.reverse-section {
+    max-width: 400px;
+    margin-left: 0;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .general-container.reverse-section {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img-container.reverse-section {
+    width: 428px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .img-container.reverse-section {
+    width: 548px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .slider-photo.reverse-section {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .slider-photo.reverse-section {
+    min-height: 254px;
+  }
+}
+
+.room-photo-img.reverse-section {
+  left: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .room-photo-img.reverse-section {
+    left: -102px;
+  }
+}
+
+.slider-photo-list.reverse-section {
+  position: absolute;
+  left: 36px;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider-photo-list.reverse-section {
+    left: 0;
+  }
+}
+
+.slider-photo-item {
+  flex-shrink: 0;
+}
+
+.slider-arrow.reverse-section {
+  display: flex;
+  justify-content: end;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider-arrow.reverse-section {
+    justify-content: start;
+  }
+}
