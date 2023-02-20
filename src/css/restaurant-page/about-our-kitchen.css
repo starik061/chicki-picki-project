@@ -124,6 +124,7 @@
         position: absolute;
             left: 512px;
             top: -32px;
+            margin-top: 0;
         
 
     }
@@ -171,6 +172,7 @@
 @media screen and (min-width:1024px) {
 
     .section-about-kitchen {
+        position: relative;
         padding-top: 120px;
         padding-bottom: 32px;
 

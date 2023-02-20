@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $(".slider").slick({
-    slidesToShow: 2,
-    slidesToScroll: 1,
+    slidesToShow: 1,
+    slidesToScroll: 2,
     infinite: true,
     centerMode: true,
     centerPadding: "85px",
@@ -10,10 +10,9 @@ $(document).ready(function () {
   });
 });
 $('.details-slider').slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    prevArrow: "<img src='./img/details-of-our-restaurant/cil_arrow-left.svg' class='prev' alt='left'>",
-    nextArrow: "<img src='./img/details-of-our-restaurant/cil_arrow-right.svg' class='next' alt='right'>"
-  });
-
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  prevArrow: '<button type="button" class="btn-to-left"></button>',
+  nextArrow: '<button type="button" class="btn-to-right"></button>',
+});

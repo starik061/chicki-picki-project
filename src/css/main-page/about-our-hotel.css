@@ -115,7 +115,7 @@
     }
 }
 
-.second-part {
+.second-part-hotel {
     display: flex;
     align-items: center;
     margin-top: 32px;
@@ -125,7 +125,7 @@
 /* tablet screen */
 @media screen and (min-width:1024px) {
 
-    .second-part {
+    .second-part-hotel {
         display: flex;
         justify-content: right;
         margin-top: 142px;
@@ -137,7 +137,7 @@
 /* tablet screen */
 @media screen and (min-width:1280px) {
 
-    .second-part {
+    .second-part-hotel {
         display: flex;
         justify-content: right;
         margin-top: 162px;
@@ -182,6 +182,7 @@
 @media screen and (min-width:1024px) {
 
     .section-about-hotel {
+        position: relative;
         padding-top: 120px;
         padding-bottom: 32px;
 
@@ -205,6 +206,8 @@
     max-width: 550px;
     width: 100%;
     margin-left: auto;
+   
+    
 }
 
 .slider {
