@@ -19,7 +19,7 @@
     
     <script type="module" crossorigin src="/chicki-picki-project/assets/main-a64e7dc4.js"></script>
     <link rel="stylesheet" href="/chicki-picki-project/assets/main-2a04a4f9.css">
-    <link rel="stylesheet" href="/chicki-picki-project/assets/restaurant-page-9cc2a552.css">
+    <link rel="stylesheet" href="/chicki-picki-project/assets/restaurant-page-afa47d6f.css">
   </head>
   <body>
     <header class="header-section">
@@ -119,16 +119,20 @@
     </div>
     <ul class="hero-button-list">
       <li class="hero-button-item">
-        <button type="button" class="hero-button open-modal-btn" data-modal-target="modal1">Забронювати столик</button>
-      </li>
-      <li class="hero-button-item">
         <button
           type="button"
-          class="hero-button"
-          onclick="window.location.href='#';"
+          class="hero-button open-modal-btn"
+          data-modal-target="modal1"
         >
-          Переглянути меню
+          Забронювати столик
         </button>
+      </li>
+      <li class="hero-button-item">
+        <a class="hero-button" href="#resturant-menu"
+          >
+            Переглянути меню
+          </button></a
+        >
       </li>
     </ul>
     <ul class="hero-social-list">
@@ -312,7 +316,7 @@
 ></script>
 <script src="../../slider.js"></script>
 
-    <section class="menu">
+    <section class="menu" id="resturant-menu">
   <div class="main-container menu-container">
     <h2 class="menu-title">МЕНЮ РЕСТОРАНУ</h2>
     <div class="menu-div">
@@ -567,7 +571,13 @@
       </div>
     </div>
     <div class="menu-button-div">
-      <button type="button" class="menu-button open-modal-btn" data-modal-target="modal1">Забронювати столик</button>
+      <button
+        type="button"
+        class="menu-button open-modal-btn"
+        data-modal-target="modal1"
+      >
+        Забронювати столик
+      </button>
     </div>
   </div>
 </section>
