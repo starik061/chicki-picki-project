@@ -20,7 +20,7 @@
     
     <script type="module" crossorigin src="/chicki-picki-project/assets/main-a64e7dc4.js"></script>
     <link rel="stylesheet" href="/chicki-picki-project/assets/main-2a04a4f9.css">
-    <link rel="stylesheet" href="/chicki-picki-project/assets/hotel-page-64e76348.css">
+    <link rel="stylesheet" href="/chicki-picki-project/assets/hotel-page-045cb4c3.css">
   </head>
   <body>
     <header class="header-section">
@@ -179,7 +179,7 @@
       <h3 class="main-title-room">MIMIHO</h3>
 
       <h2 class="title-name-room">ДВОМІСНИЙ НОМЕР люкс</h2>
-      <p class="description-room">
+      <p class="text-room">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequat duis enim velit mollit. Exercitation
         veniam consequat sunt nostrud amet.
@@ -189,6 +189,7 @@
     <div class="room-photo">
       <img
         class="room-photo-img"
+        srcset="/chicki-picki-project/assets/main-room-1@1x-678acb69.jpg 1x, /chicki-picki-project/assets/main-room-1@2x-b7b429b9.jpg 2x"
         src="/chicki-picki-project/assets/main-room-1@1x-678acb69.jpg"
         alt="Photo main room"
         width="460"
@@ -197,64 +198,244 @@
     </div>
   </div>
 
-  <div class="main-container slider-photo">
-    <ul class="slider-photo-list">
-      <li class="slider-photo-item">
-        <img
-          class="slider-photo-img first"
-          src="/chicki-picki-project/assets/bathroom-slider-1@1x-d0803dbd.jpg"
-          alt="Photo bathroom"
-          width="254"
-          height="254"
-        />
-      </li>
-      <li class="slider-photo-item">
-        <img
-          class="slider-photo-img"
-          src="/chicki-picki-project/assets/cup-tea-slider-2@1x-d9f0de0c.jpg"
-          alt="Cup tea"
-          width="254"
-          height="254"
-        />
-      </li>
-    </ul>
-  </div>
+  <div class="main-container general-container">
+    <div class="img-container">
+      <div class="slider-photo">
+        <ul class="slider-photo-list">
+          <li class="slider-photo-item">
+            <img
+              class="slider-photo-img first"
+              srcset="/chicki-picki-project/assets/bathroom-slider-1@1x-d0803dbd.jpg 1x, /chicki-picki-project/assets/bathroom-slider-1@2x-2d79a95b.jpg 2x"
+              src="/chicki-picki-project/assets/bathroom-slider-1@1x-d0803dbd.jpg"
+              alt="Photo bathroom"
+              width="254"
+              height="254"
+            />
+          </li>
+          <li class="slider-photo-item">
+            <img
+              class="slider-photo-img"
+              srcset="/chicki-picki-project/assets/cup-tea-slider-2@1x-d9f0de0c.jpg 1x, /chicki-picki-project/assets/cup-tea-slider-2@2x-91165760.jpg 2x"
+              src="/chicki-picki-project/assets/cup-tea-slider-2@1x-d9f0de0c.jpg"
+              alt="Cup tea"
+              width="254"
+              height="254"
+            />
+          </li>
+        </ul>
+      </div>
 
-  <div class="main-container slider-arrow">
-    <button class="slider-arrow-button" type="button">
-      <a class="" href="">
-        <svg class="" width="32" height="32">
-          <use href="/chicki-picki-project/assets/icons-fc97cdc0.svg#icon-slider-arrow-left"></use>
-        </svg>
-      </a>
-    </button>
-    <button class="slider-arrow-button" type="button">
-      <a class="" href="">
-        <svg class="" width="32" height="32">
-          <use href="/chicki-picki-project/assets/icons-fc97cdc0.svg#icon-slider-arrow-right"></use>
-        </svg>
-      </a>
-    </button>
-  </div>
+      <div class="slider-arrow">
+        <button class="slider-arrow-button" type="button">
+          <a class="" href="">
+            <svg class="" width="32" height="32">
+              <use href="/chicki-picki-project/assets/icons-fc97cdc0.svg#icon-slider-arrow-left"></use>
+            </svg>
+          </a>
+        </button>
+        <button class="slider-arrow-button" type="button">
+          <a class="" href="">
+            <svg class="" width="32" height="32">
+              <use href="/chicki-picki-project/assets/icons-fc97cdc0.svg#icon-slider-arrow-right"></use>
+            </svg>
+          </a>
+        </button>
+      </div>
+    </div>
 
-  <div class="main-container">
-    <ul class="filter-list-button">
-      <li class="filter-item-button">
-        <button class="filter-button" type="button">
-          <a class="filter-link-button" href="room-page.html">Детальніше</a>
-        </button>
-      </li>
-      <li class="filter-item-button">
-        <button class="filter-button price-button open-modal-btn" data-modal-target="modal2" type="button">
-          Переглянути ціни
-        </button>
-      </li>
-    </ul>
+    <div class="button-container">
+      <ul class="filter-list-button">
+        <li class="filter-item-button">
+          <button class="filter-button" type="button">
+            <a class="filter-link-button" href="room-page.html">Детальніше</a>
+          </button>
+        </li>
+        <li class="filter-item-button">
+          <button class="filter-button price-button" type="button">
+            Переглянути ціни
+          </button>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>
 
-    
-    
+    <section class="room-for-3">
+  <div class="main-container room-description reverse-section">
+    <div class="section-text reverse-section">
+      <p class="top-title-room reverse-section">Amet minim mollit non</p>
+      <h3 class="main-title-room reverse-section">MIMIHO</h3>
+
+      <h2 class="title-name-room reverse-section">ТРЬОХМІСНИЙ НОМЕР</h2>
+      <p class="text-room reverse-section">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+    </div>
+
+    <div class="room-photo">
+      <img
+        class="room-photo-img reverse-section"
+        srcset="/chicki-picki-project/assets/main-room-1@1x-678acb69.jpg 1x, /chicki-picki-project/assets/main-room-1@2x-b7b429b9.jpg 2x"
+        src="/chicki-picki-project/assets/main-room-1@1x-678acb69.jpg"
+        alt="Photo main room"
+        width="460"
+        height="574"
+      />
+    </div>
+  </div>
+
+  <div class="main-container general-container reverse-section">
+    <div class="img-container reverse-section">
+      <div class="slider-photo reverse-section">
+        <ul class="slider-photo-list reverse-section">
+          <li class="slider-photo-item reverse-section">
+            <img
+              class="slider-photo-img first"
+              srcset="/chicki-picki-project/assets/bathroom-slider-1@1x-d0803dbd.jpg 1x, /chicki-picki-project/assets/bathroom-slider-1@2x-2d79a95b.jpg 2x"
+              src="/chicki-picki-project/assets/bathroom-slider-1@1x-d0803dbd.jpg"
+              alt="Photo bathroom"
+              width="254"
+              height="254"
+            />
+          </li>
+          <li class="slider-photo-item reverse-section">
+            <img
+              class="slider-photo-img"
+              srcset="/chicki-picki-project/assets/cup-tea-slider-2@1x-d9f0de0c.jpg 1x, /chicki-picki-project/assets/cup-tea-slider-2@2x-91165760.jpg 2x"
+              src="/chicki-picki-project/assets/cup-tea-slider-2@1x-d9f0de0c.jpg"
+              alt="Cup tea"
+              width="254"
+              height="254"
+            />
+          </li>
+        </ul>
+      </div>
+
+      <div class="slider-arrow reverse-section">
+        <button class="slider-arrow-button" type="button">
+          <a class="" href="">
+            <svg class="" width="32" height="32">
+              <use href="/chicki-picki-project/assets/icons-fc97cdc0.svg#icon-slider-arrow-left"></use>
+            </svg>
+          </a>
+        </button>
+        <button class="slider-arrow-button" type="button">
+          <a class="" href="">
+            <svg class="" width="32" height="32">
+              <use href="/chicki-picki-project/assets/icons-fc97cdc0.svg#icon-slider-arrow-right"></use>
+            </svg>
+          </a>
+        </button>
+      </div>
+    </div>
+
+    <div class="button-container">
+      <ul class="filter-list-button">
+        <li class="filter-item-button">
+          <button class="filter-button" type="button">
+            <a class="filter-link-button" href="room-page.html">Детальніше</a>
+          </button>
+        </li>
+        <li class="filter-item-button">
+          <button class="filter-button price-button" type="button">
+            Переглянути ціни
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    <section class="room-for-2">
+  <div class="main-container room-description">
+    <div class="section-text">
+      <p class="top-title-room">Amet minim mollit non</p>
+      <h3 class="main-title-room">MIMIHO</h3>
+
+      <h2 class="title-name-room">ДВОМІСНИЙ НОМЕР</h2>
+      <p class="text-room">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+    </div>
+
+    <div class="room-photo">
+      <img
+        class="room-photo-img"
+        srcset="/chicki-picki-project/assets/main-room-1@1x-678acb69.jpg 1x, /chicki-picki-project/assets/main-room-1@2x-b7b429b9.jpg 2x"
+        src="/chicki-picki-project/assets/main-room-1@1x-678acb69.jpg"
+        alt="Photo main room"
+        width="460"
+        height="574"
+      />
+    </div>
+  </div>
+
+  <div class="main-container general-container">
+    <div class="img-container">
+      <div class="slider-photo">
+        <ul class="slider-photo-list">
+          <li class="slider-photo-item">
+            <img
+              class="slider-photo-img first"
+              srcset="/chicki-picki-project/assets/bathroom-slider-1@1x-d0803dbd.jpg 1x, /chicki-picki-project/assets/bathroom-slider-1@2x-2d79a95b.jpg 2x"
+              src="/chicki-picki-project/assets/bathroom-slider-1@1x-d0803dbd.jpg"
+              alt="Photo bathroom"
+              width="254"
+              height="254"
+            />
+          </li>
+          <li class="slider-photo-item">
+            <img
+              class="slider-photo-img"
+              srcset="/chicki-picki-project/assets/cup-tea-slider-2@1x-d9f0de0c.jpg 1x, /chicki-picki-project/assets/cup-tea-slider-2@2x-91165760.jpg 2x"
+              src="/chicki-picki-project/assets/cup-tea-slider-2@1x-d9f0de0c.jpg"
+              alt="Cup tea"
+              width="254"
+              height="254"
+            />
+          </li>
+        </ul>
+      </div>
+
+      <div class="slider-arrow">
+        <button class="slider-arrow-button" type="button">
+          <a class="" href="">
+            <svg class="" width="32" height="32">
+              <use href="/chicki-picki-project/assets/icons-fc97cdc0.svg#icon-slider-arrow-left"></use>
+            </svg>
+          </a>
+        </button>
+        <button class="slider-arrow-button" type="button">
+          <a class="" href="">
+            <svg class="" width="32" height="32">
+              <use href="/chicki-picki-project/assets/icons-fc97cdc0.svg#icon-slider-arrow-right"></use>
+            </svg>
+          </a>
+        </button>
+      </div>
+    </div>
+
+    <div class="button-container">
+      <ul class="filter-list-button">
+        <li class="filter-item-button">
+          <button class="filter-button" type="button">
+            <a class="filter-link-button" href="room-page.html">Детальніше</a>
+          </button>
+        </li>
+        <li class="filter-item-button">
+          <button class="filter-button price-button" type="button">
+            Переглянути ціни
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
     <footer>
   <div class="footer--container">
     <a class="logo" href="./../../index.html">MIMIHO</a>
