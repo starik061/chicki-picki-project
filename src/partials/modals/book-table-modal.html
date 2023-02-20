@@ -1,67 +1,88 @@
-
- <section class="section-modal-book-table">
-    <link rel="stylesheet" href="../../css/modals/book-table-modal.css">
-    <link rel="stylesheet" href="../../css/base/variables.css">
-    <link rel="stylesheet" href="../../css/base/reset_and_global_styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <div class="book-table-modal"> 
-        <div class="block-close">
-            <button type="button" class="modal-table-close"><svg>
-            <use href="../../img/icons.svg#icon-close-modal-tabel"></use>
-        </svg></button>
+<section
+  class="section-modal-book-table modal hide"
+  id="modal1"
+  style="display: none"
+>
+  <div class="book-table-modal modal-content">
+    <div class="block-close">
+      <button
+        type="button"
+        class="modal-table-close close"
+        data-modal-target="modal1"
+      >
+        <svg>
+          <use href="./img/icons.svg#icon-close-modal-tabel"></use>
+        </svg>
+      </button>
     </div>
-       
-       
-    <form class="book-table-form">
-        <div class="main-block-modal-tabel">
-            <p class="title-table-mod">Забронювати столик</p>
-            <ul class="book-table-list">
-        
-                    <li class="book-table-item">
-                        <div class="book-table-item">
-                            <input type="text" name="name" id="name-of-customers" class="book-table-inpu" placeholder="Ваше ім’я" required>
-                            <div><label class="sub-text" for="name-of-customers">На кого забронювати столик?</label>
-                            </div>
-                        </div> 
-                        <div class="book-table-item">
-                        <div>
-                            <input type="tel" name="phone" id="phone" class="book-table-inpu" placeholder="+38 (___) ___-__-__" required>
-                            <div><label class="sub-text" for="phone">Номер телефону</label>
-                            </div>
-                        </div>
-                    </div>
-                   
-                </li>
-                
-                <li class="book-table-item">
-                    <div class="custom-select">
-                        <select name="table" id="size-tabel">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                        </select>
-                    </div>
-                    <div class="book-tablet-sub-title">
-                        <label class="sub-text" for="size-table">Столик на яку кількість осoб?</label>
-                    </div>
-                        <div class="custom-select">
-                            <select name="date" id="book-date">
-                                <option value="today">Сьогодні</option>
-                                <option value="tomorow">Завтра</option>
-                                <option value="after tomorow">Післязавтра</option>
-                            </select>
-                        </div>
-                        <div class="book-tablet-sub-title">
-                            <label class="sub-text" for="date-of-order">На яку дату бронювати?</label>
-                        </div>
-                </li>
-            </ul>
-            <button type="submit" class="make-book">Оформити бронювання</button>
-        </div>
-    </form>
-    
-</div>
 
-    <script src="../../public/modal-table.js"></script>
+    <form class="book-table-form">
+      <div class="main-block-modal-tabel">
+        <p class="title-table-mod">Забронювати столик</p>
+        <ul class="book-table-list">
+          <li class="book-table-item">
+            <div class="book-table-item">
+              <input
+                type="text"
+                name="name"
+                id="name-of-customers"
+                class="book-table-inpu"
+                placeholder="Ваше ім’я"
+                required
+              />
+              <div>
+                <label class="sub-text" for="name-of-customers"
+                  >На кого забронювати столик?</label
+                >
+              </div>
+            </div>
+            <div class="book-table-item">
+              <div>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  class="book-table-inpu"
+                  placeholder="+38 (___) ___-__-__"
+                  required
+                />
+                <div>
+                  <label class="sub-text" for="phone">Номер телефону</label>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="book-table-item">
+            <div class="custom-select">
+              <select name="table" id="size-tabel">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+            <div class="book-tablet-sub-title">
+              <label class="sub-text" for="size-table"
+                >Столик на яку кількість осoб?</label
+              >
+            </div>
+            <div class="custom-select">
+              <select name="date" id="book-date">
+                <option value="today">Сьогодні</option>
+                <option value="tomorow">Завтра</option>
+                <option value="after tomorow">Післязавтра</option>
+              </select>
+            </div>
+            <div class="book-tablet-sub-title">
+              <label class="sub-text" for="date-of-order"
+                >На яку дату бронювати?</label
+              >
+            </div>
+          </li>
+        </ul>
+        <button type="submit" class="make-book">Оформити бронювання</button>
+      </div>
+    </form>
+  </div>
 </section>
