@@ -1,18 +1,188 @@
-.hero-section-restaurant {
+/* =============================BG-SLIDER==================================== */
+.body_slides {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: -2;
+    background: #000;
+}
+
+.body_slides {
+    position: absolute;
+    width: 100%;
     height: 740px;
-    padding-bottom: 20px;
-    padding-top: 64px;
-    background-image: linear-gradient(var(--hero-background-color), var(--hero-background-color)), url('../../img/hero-img/hero-bg-rest-mobile.jpg');
+    top: 0px;
+    left: 0px;
+}
+
+
+.body_slides li {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
     background-size: cover;
-    background-color: var(--hero-background-color);
+    background-repeat: no-repeat;
+    opacity: 0;
+    -webkit-animation: anim_slides 18s linear infinite 0s;
+    -moz-animation: anim_slides 18s linear infinite 0s;
+    -o-animation: anim_slides 18s linear infinite 0s;
+    -ms-animation: anim_slides 18s linear infinite 0s;
+    animation: anim_slides 18s linear infinite 0s;
+}
+
+.body_slides li:nth-child(1) {
+    background-image: url('../../img/hero-img/hero-bg-rest-mobile.jpg');
+}
+
+.body_slides li:nth-child(2) {
+    -webkit-animation-delay: 6.0s;
+    -moz-animation-delay: 6.0s;
+    background-image: url('../../img/hero-img/hero-bg-mobile.jpg');
+}
+
+.body_slides li:nth-child(3) {
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+    background-image: url('../../img/hero-img/hero-bg-hotel-mobile.jpg');
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 414px),
 screen and (min-resolution: 192dpi) and (max-width: 414px),
 screen and (min-resolution: 2dppx) and (max-width: 414px) {
-    .hero-section-restaurant {
-        background-image: linear-gradient(var(--hero-background-color), var(--hero-background-color)), url('../../img/hero-img/hero-bg-rest-mobile@2x.jpg');
+    .body_slides li:nth-child(1) {
+        background-image: url('../../img/hero-img/hero-bg-rest-mobile@2x.jpg');
     }
+
+    .body_slides li:nth-child(2) {
+        -webkit-animation-delay: 6.0s;
+        -moz-animation-delay: 6.0s;
+        background-image: url('../../img/hero-img/hero-bg-mobile@2x.jpg');
+    }
+
+    .body_slides li:nth-child(3) {
+        -webkit-animation-delay: 12.0s;
+        -moz-animation-delay: 12.0s;
+        background-image: url('../../img/hero-img/hero-bg-hotel-mobile@2x.jpg');
+    }
+}
+
+
+
+@-webkit-keyframes anim_slides {
+    0% {
+        opacity: 0;
+    }
+
+    6% {
+        opacity: 1;
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes anim_slides {
+    0% {
+        opacity: 0;
+    }
+
+    6% {
+        opacity: 1;
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@media screen and (min-width: 415px) {
+    .body_slides li:nth-child(1) {
+        background-image: url('../../img/hero-img/hero-bg-rest-tabl.jpg');
+    }
+
+    .body_slides li:nth-child(2) {
+        background-image: url('../../img/hero-img/hero-bg-tablet.jpg');
+    }
+
+    .body_slides li:nth-child(3) {
+        background-image: url('../../img/hero-img/hero-bg-hotel-tabl.jpg');
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 415px),
+screen and (min-resolution: 192dpi) and (min-width: 415px),
+screen and (min-resolution: 2dppx) and (min-width: 415px) {
+    .body_slides li:nth-child(1) {
+        background-image: url('../../img/hero-img/hero-bg-rest-tabl@2x.jpg');
+    }
+
+    .body_slides li:nth-child(2) {
+        background-image: url('../../img/hero-img/hero-bg-tablet@2x.jpg');
+    }
+
+    .body_slides li:nth-child(3) {
+        background-image: url('../../img/hero-img/hero-bg-hotel-tabl@2x.jpg');
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .body_slides li:nth-child(1) {
+        background-image: url('../../img/hero-img/hero-bg-rest-desk.jpg');
+    }
+
+    .body_slides li:nth-child(2) {
+        background-image: url('../../img/hero-img/hero-bg-desktop.jpg');
+    }
+
+    .body_slides li:nth-child(3) {
+        background-image: url('../../img/hero-img/hero-bg-hotel-desk.jpg');
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1025px),
+screen and (min-resolution: 192dpi) and (min-width: 1025px),
+screen and (min-resolution: 2dppx) and (min-width: 1025px) {
+    .body_slides li:nth-child(1) {
+        background-image: url('../../img/hero-img/hero-bg-rest-desk@2x.jpg');
+    }
+
+    .body_slides li:nth-child(2) {
+        background-image: url('../../img/hero-img/hero-bg-desktop@2x.jpg');
+    }
+
+    .body_slides li:nth-child(3) {
+        background-image: url('../../img/hero-img/hero-bg-hotel-desk@2x.jpg');
+    }
+}
+
+/* ============================= /BG-SLIDER==================================== */
+
+.hero-section-restaurant {
+    position: relative;
+    height: 740px;
+    padding-bottom: 20px;
+    padding-top: 64px;
+    background-size: cover;
+    background-color: var(--hero-background-color);
 }
 
 .hero-container {
@@ -159,35 +329,11 @@ screen and (min-resolution: 2dppx) and (max-width: 414px) {
     }
 }
 
-@media screen and (min-width: 415px) {
-    .hero-section-restaurant {
-        background-image: linear-gradient(var(--hero-background-color), var(--hero-background-color)), url('../../img/hero-img/hero-bg-rest-tabl.jpg');
-    }
-}
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 415px),
-screen and (min-resolution: 192dpi) and (min-width: 415px),
-screen and (min-resolution: 2dppx) and (min-width: 415px) {
-    .hero-section-restaurant {
-        background-image: linear-gradient(var(--hero-background-color), var(--hero-background-color)), url('../../img/hero-img/hero-bg-rest-tabl@2x.jpg');
-    }
-}
-
-@media screen and (min-width: 1025px) {
-    .hero-section-restaurant {
-        background-image: linear-gradient(var(--hero-background-color), var(--hero-background-color)), url('../../img/hero-img/hero-bg-rest-desk.jpg');
-    }
-}
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1025px),
-screen and (min-resolution: 192dpi) and (min-width: 1025px),
-screen and (min-resolution: 2dppx) and (min-width: 1025px) {
-    .hero-section-restaurant {
-        background-image: linear-gradient(var(--hero-background-color), var(--hero-background-color)), url('../../img/hero-img/hero-bg-rest-desk@2x.jpg');
-    }
-}
-
 @media screen and (min-width: 1024px) {
+    .body_slides {
+    height: 720px;
+    }
+
     .hero-section-restaurant {
         height: 720px;
         padding-bottom: 15px;
@@ -260,4 +406,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1025px) {
         padding-right: 35px;
     }
 
+    .body_slides,
+    .body_slides:after {
+        max-width: 1280px;
+    }
 }
