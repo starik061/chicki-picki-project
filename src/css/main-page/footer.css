@@ -13,25 +13,21 @@ footer {
 
 .footer--container {
   display: flex;
-  margin: 0 auto;
-  max-width: 414px;
-  padding-left: 59px;
-  padding-right: 31px;
+  padding-left: 44px;
+  padding-right: 18px;
 }
 
 @media (min-width: 1024px) {
   .footer--container {
-    max-width: 960px;
-    padding-left: 154px;
-    padding-right: 122px;
+    padding-left: 139px;
+    padding-right: 107px;
   }
 }
 
 @media (min-width: 1280px) {
   .footer--container {
-    max-width: 1140px;
-    padding-left: 216px;
-    padding-right: 186px;
+    padding-left: 201px;
+    padding-right: 171px;
   }
 }
 
