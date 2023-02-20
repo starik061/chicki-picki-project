@@ -11,14 +11,12 @@
   }
 
   @media (min-device-pixel-ratio: 2) and (min-width: 320px),
-    (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px),
-    (min-resolution: 192dpi) and (min-width: 320px),
-    (min-resolution: 2dppx) and (min-width: 320px) {
+  (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px),
+  (min-resolution: 192dpi) and (min-width: 320px),
+  (min-resolution: 2dppx) and (min-width: 320px) {
     .details-restaurant-wrap {
-      background-image: linear-gradient(
-          rgba(0, 0, 0, 0.65),
-          rgba(0, 0, 0, 0.65)
-        ),
+      background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)),
         url(../../img/details-of-our-restaurant/restaurant-details-mobile/restaurant-details-bcg-mobile@2x.jpg);
     }
   }
@@ -89,20 +87,6 @@
     height: 270px;
   }
 
-  .details-restaurant-list .prev,
-  .details-restaurant-list .next {
-    position: absolute;
-    top: 110%;
-    height: 32px;
-    width: 32px;
-    z-index: 3;
-    cursor: pointer;
-  }
-
-  .details-restaurant-list .next {
-    left: 96px;
-  }
-
   .details-btn {
     display: block;
     margin-left: auto;
@@ -124,6 +108,7 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .details-btn:hover,
   .details-btn:focus {
     background-color: var(--white-color);
@@ -140,6 +125,38 @@
   }
 }
 
+.details-restaurant-list>.btn-to-left {
+  position: absolute;
+  bottom: -22%;
+  display: block; 
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../../img/details-of-our-restaurant/cil_arrow-left.svg);
+  background-repeat: no-repeat;
+}
+.btn-to-left:hover,
+.btn-to-left:active {
+  background-image: url(../../img/details-of-our-restaurant/cil_arrow-left-hover.svg);
+}
+
+.details-restaurant-list>.btn-to-right {
+  position: absolute;
+
+  bottom: -22%;
+  left: 96px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../../img/details-of-our-restaurant/cil_arrow-right.svg);
+  background-repeat: no-repeat;
+}
+.details-restaurant-list>.btn-to-right:hover,
+.details-restaurant-list>.btn-to-right:active {
+  background-image: url(../../img/details-of-our-restaurant/cil_arrow-right-hover.svg);
+}
+
 /* -------------------Фонове зображення від таблет --------------- */
 
 @media screen and (min-width: 1024px) {
@@ -151,15 +168,16 @@
 }
 
 @media (min-device-pixel-ratio: 2) and (min-width: 1024px),
-  (-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px),
-  (min-resolution: 192dpi) and (min-width: 1024px),
-  (min-resolution: 2dppx) and (min-width: 1024px) {
+(-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px),
+(min-resolution: 192dpi) and (min-width: 1024px),
+(min-resolution: 2dppx) and (min-width: 1024px) {
   .details-restaurant-wrap {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../../img/details-of-our-restaurant/restaurant-details-tablet/restaurant-details-bcg-tablet@2x.jpg);
     max-width: 1024px;
   }
 }
+
 /* --------------------------------------------------------- */
 
 @media screen and (min-width: 1024px) {
@@ -194,8 +212,10 @@
     margin-left: 28.5%;
     padding-left: 0;
   }
+
   .details-restaurant-list .next {
     left: 64px;
+    
   }
 
   .details-restaurant-wrapper {
@@ -208,7 +228,10 @@
 
   .details-restaurant-btn-wrap {
     position: absolute;
-    bottom: 0;
+    top: 38%;
+  }
+  .details-restaurant-list .btn-to-right {
+    left: 64px;
   }
 }
 
@@ -223,9 +246,9 @@
 }
 
 @media (min-device-pixel-ratio: 2) and (min-width: 1280px),
-  (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px),
-  (min-resolution: 192dpi) and (min-width: 1280px),
-  (min-resolution: 2dppx) and (min-width: 1280px) {
+(-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px),
+(min-resolution: 192dpi) and (min-width: 1280px),
+(min-resolution: 2dppx) and (min-width: 1280px) {
   .details-restaurant-wrap {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../../img/details-of-our-restaurant/restaurant-details-desktop/restaurant-details-bcg-desktop@2x.jpg);
@@ -245,3 +268,4 @@
     max-width: 71.1%;
   }
 }
+

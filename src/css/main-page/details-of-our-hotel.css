@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'Film P3';
-  src: url('../../../src/mimino-font/FilmP3Bold.woff2') format('woff2'),
-    url('../../../src/mimino-font/FilmP3Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
 @media screen and (min-width: 320px) {
   .details-hotel-wrap {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
@@ -20,14 +11,12 @@
   }
 
   @media (min-device-pixel-ratio: 2) and (min-width: 320px),
-    (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px),
-    (min-resolution: 192dpi) and (min-width: 320px),
-    (min-resolution: 2dppx) and (min-width: 320px) {
+  (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px),
+  (min-resolution: 192dpi) and (min-width: 320px),
+  (min-resolution: 2dppx) and (min-width: 320px) {
     .details-hotel-wrap {
-      background-image: linear-gradient(
-          rgba(0, 0, 0, 0.65),
-          rgba(0, 0, 0, 0.65)
-        ),
+      background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)),
         url(../../img/details-of-our-hotel/hotel-details-mobile/hotel-details-bcg-mobile@2x.jpg);
     }
   }
@@ -101,22 +90,39 @@
     height: 270px;
   }
 
-  .details-hotel-list .prev,
-  .details-hotel-list .next {
+
+  .details-hotel-list>.btn-to-left {
     position: absolute;
-    top: 110%;
-    height: 32px;
-    width: 32px;
-    z-index: 3;
-    cursor: pointer;
-  }
-
-  .details-hotel-list .prev {
     right: 96px;
+    bottom: -22%;
+    display: block;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background-image: url(../../img/details-of-our-restaurant/cil_arrow-left.svg);
+    background-repeat: no-repeat;
   }
 
-  .details-hotel-list .next {
+  .details-hotel-list>.btn-to-left:hover,
+  .details-hotel-list>.btn-to-left:active {
+    background-image: url(../../img/details-of-our-restaurant/cil_arrow-left-hover.svg);
+  }
+
+  .details-hotel-list>.btn-to-right {
+    position: absolute;
+    bottom: -22%;
     right: 32px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background-image: url(../../img/details-of-our-restaurant/cil_arrow-right.svg);
+    background-repeat: no-repeat;
+  }
+
+  .details-hotel-list>.btn-to-right:hover,
+  .details-hotel-list>.btn-to-right:active {
+    background-image: url(../../img/details-of-our-restaurant/cil_arrow-right-hover.svg);
   }
 }
 
@@ -131,9 +137,9 @@
 }
 
 @media (min-device-pixel-ratio: 2) and (min-width: 1024px),
-  (-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px),
-  (min-resolution: 192dpi) and (min-width: 1024px),
-  (min-resolution: 2dppx) and (min-width: 1024px) {
+(-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px),
+(min-resolution: 192dpi) and (min-width: 1024px),
+(min-resolution: 2dppx) and (min-width: 1024px) {
   .details-hotel-wrap {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../../img/details-of-our-hotel/hotel-details-tablet/hotel-details-bcg-tablet@2x.jpg);
@@ -178,12 +184,15 @@
     padding-right: 0;
     margin-right: 28.5%;
   }
+
   .details-hotel-list .prev {
     right: 64px;
   }
+
   .details-hotel-list .next {
     right: 0;
   }
+
   .details-hotel-wrapper {
     position: relative;
   }
@@ -197,7 +206,16 @@
     bottom: 0;
     right: 0;
   }
+
+  .details-hotel-list>.btn-to-left {
+    right: 64px;
+  }
+
+  .details-hotel-list>.btn-to-right {
+    right: 0;
+  }
 }
+
 /* ----------------------Фонове зображення від десктоп------------ */
 @media screen and (min-width: 1280px) {
   .details-hotel-wrap {
@@ -208,9 +226,9 @@
 }
 
 @media (min-device-pixel-ratio: 2) and (min-width: 1280px),
-  (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px),
-  (min-resolution: 192dpi) and (min-width: 1280px),
-  (min-resolution: 2dppx) and (min-width: 1280px) {
+(-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px),
+(min-resolution: 192dpi) and (min-width: 1280px),
+(min-resolution: 2dppx) and (min-width: 1280px) {
   .details-hotel-wrap {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../../img/details-of-our-hotel/hotel-details-desktop/hotel-details-bcg-desktop@2x.jpg);
