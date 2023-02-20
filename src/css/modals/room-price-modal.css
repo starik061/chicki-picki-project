@@ -1,0 +1,359 @@
+
+
+.block-close-price{
+  display: flex;
+  justify-content: end;
+}
+
+.modal-table-close-price{
+
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    stroke: black;
+}
+.modal-table-close-price > svg{
+    width: 24px;
+    height: 24px;
+    z-index: 100;
+}
+
+.book-table-form-price{
+    margin: 0px;
+}
+
+.section-modal-book-table-price{
+  top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--hero-background-color);
+}
+.main-block-modal-tabel-price{
+  width: 100%;
+  margin: auto;
+    margin: 0;
+}
+
+@media (min-width: 414px) {
+  .main-block-modal-tabel-price {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-block-modal-tabel-price{
+    width: 592px;
+    margin: auto;
+    
+  }
+}
+.book-table-modal-price {
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    text-align: center;
+
+    width: 100%;
+    
+    background-color:var(--main-background-color);
+}
+
+@media (min-width: 414px) {
+  .book-table-modal-price {
+ 
+    width: 384px;
+
+  }}
+  
+@media (min-width: 1024px){
+  .book-table-modal-price{
+    width: 712px;
+   
+        padding-bottom: 60px;
+  }
+}
+.title-table-mod-price{
+margin-bottom: 40px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+letter-spacing: 0.05em;
+
+color: var(--black-color);
+}
+@media (min-width: 414px) {
+  .title-table-mod-price{
+    text-align: center;
+      margin-bottom: 40px;
+  
+      font-family: 'Times New Roman';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+  
+      letter-spacing: 0.05em;
+  
+      color: var(--black-color);
+    }
+}
+@media (min-width: 1024px){
+  .title-table-mod-price{
+  
+    font-family: 'Times New Roman';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 37px;
+
+    
+      color: #000000;
+  }
+}
+.sub-text-price{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+margin-left: 15px;
+
+letter-spacing: 0.02em;
+
+
+color: var(--brown-color);
+
+}
+.sub-title-mod-price-price{
+text-align: start;
+margin-bottom: 28px;
+
+  font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+
+letter-spacing: 0.05em;
+
+color: var(--placeholder-color);
+}
+.book-table-list-price{
+    width: 100%;
+   list-style: none;
+}
+
+@media (min-width: 414px) {
+  .book-table-list-price{
+      width: 384px;
+      list-style: none;
+    }
+}
+@media (min-width: 1024px) {
+  .book-table-list-price{
+    gap: 16px;
+    display: flex;
+  }
+}
+
+.select-title-price{
+  display: block;
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  
+    letter-spacing: 0.02em;
+  
+    color: var(--brown-color);
+}
+.book-tablet-sub-title-price{
+    text-align: start;
+
+    margin-bottom: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    width: 100%;
+
+    letter-spacing: 0.02em;
+
+    color: #C79002;
+}
+
+.book-price-sub-title-price{
+  text-align: start;
+
+   margin-left: 15px;
+   margin-bottom: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+
+    letter-spacing: 0.02em;
+
+    color: #C79002;
+
+}
+.book-table-item-price{
+    position: relative;
+    margin-bottom: 8px;
+    height: 54px;
+}
+.book-table-inpu-price{
+    background-color: transparent;
+    border: 1px solid #C79002;
+    border-radius: 2px;
+
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+
+    color: #808080;
+
+    padding-left: 15px;
+}
+.book-tablet-output-price{
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.make-book-price{
+margin-top: 20px;
+
+    padding: 20px 43px;
+    width: 298px;
+    background-color: var(--black-color);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+border: 1px solid var(--yellow-color);
+
+color: var(--white-color);
+
+
+transition-delay: 0ms;
+transition-duration:var(--transition-func);
+transition-property: color, background-color;
+transition-timing-function: var(--transition-dur);
+}
+
+.make-book-price:hover{
+  background-color: var(--yellow-color);
+  color: black;
+
+  transition-delay: 0ms;
+  transition-duration:var(--transition-func);
+  transition-property: color, background-color;
+  transition-timing-function: var(--transition-dur);
+
+}
+@media (min-width: 414px) {
+  .make-book-price{
+      margin-top: 20px;
+  
+      padding: 20px 43px;
+      width: 100%;
+     
+    }
+}
+
+@media (min-width: 1024px) {
+  .make-book-price{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.con-output-price{
+  margin-bottom: 8px;
+  padding: 18px 12px 8px 18px;
+
+
+  background-color: transparent;
+  border: 1px solid var(--brown-color);
+}
+
+@media (min-width: 414px) {
+.con-output-price{
+    margin-bottom: 8px;
+    padding: 18px 12px 8px 18px;
+    width: 352px;
+
+  }
+}
+        @media (min-width: 1024px) {
+          .con-output-price{
+            padding: 18px 12px;
+            margin-top: 40px;
+            width: 288px;
+          }
+        }
+
+.output-price{
+  
+  color: #808080;
+
+  font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+}
+
+
+
+
+@media (min-width: 414px) {
+  .custom-select {
+      width: 352px;
+    }
+}
+    @media (min-width: 1024px) {
+      .custom-select{
+        width: 288px;
+        height: 66px;
+      }
+    }
+  
+ 
+  

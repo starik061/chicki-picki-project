@@ -44,6 +44,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  background-color: var(--main-background-color);
 }
 
 .visually-hidden {
@@ -80,4 +81,14 @@ body {
   .main-container {
     width: 1140px;
   }
+}
+
+/* Film P3 Font */
+@font-face {
+  font-family: 'Film P3';
+  src: url('../../fonts/FilmP3Bold.woff2') format('woff2'),
+    url('../../fonts/FilmP3Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }

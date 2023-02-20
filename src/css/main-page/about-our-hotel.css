@@ -1,0 +1,247 @@
+/* Підзаголовок секції ресторану */
+/* Mobile screen */
+.subtitle-hotel {
+    color: #B4B4B4;
+    font-size: 20px;
+    line-height: 1.1;
+    margin-bottom: 12px;
+}
+
+/* tablet screen , desktop screen */
+@media screen and (min-width:1024px) {
+
+    .subtitle-hotel {
+        font-size: 32px;
+        margin-bottom: 4px;
+    }
+}
+
+/* mobile screen */
+.title-hotel {
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: 0.3em;
+    margin-bottom: 12px;
+    color: #494848;
+}
+
+/* tablet screen , desktop screen */
+@media screen and (min-width:1024px) {
+
+    .title-restaurant {
+        font-size: 64px;
+        margin-bottom: 24px;
+    }
+}
+
+.tittle-subtitle-block {
+    text-align: right;
+}
+
+.hotel-text {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    width: 200px;
+    margin-left: auto;
+    text-align: left;
+   
+    
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .hotel-text {
+        font-size: 16px;
+        height: 80px;
+        width: 370px;
+        margin-left: auto;
+        text-align: left;
+        
+        
+
+    }
+}
+
+/* desktop screen */
+@media screen and (min-width:1280px) {
+
+    .hotel-text {
+        width: 405px;
+        height: 88px;
+        margin-left: auto;
+        text-align: left;
+       
+
+    }
+}
+
+.hotel-text-accent {
+    color: var(--brown-color);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    width: 133px;
+    height: 120px;
+    
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .hotel-text-accent {
+        font-size: 16px;
+        width: 265px;
+        height: 122px;
+        margin-right: 48px;
+        margin-left: 0;
+
+    }
+}
+
+/* desktop screen */
+@media screen and (min-width:1280px) {
+
+    .hotel-text-accent {
+        width: 265px;
+        margin-right: 45px;
+        margin-left: 0;
+
+    }
+}
+
+.second-part {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .second-part {
+        display: flex;
+        justify-content: right;
+        margin-top: 142px;
+       
+
+    }
+}
+
+/* tablet screen */
+@media screen and (min-width:1280px) {
+
+    .second-part {
+        display: flex;
+        justify-content: right;
+        margin-top: 162px;
+
+    }
+}
+
+.hotel-first-card {
+    margin-top: 28px;
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .hotel-first-card {
+        position: absolute;
+        top: -24px;
+        margin-top: 0;
+        left: 112px;
+
+    }
+}
+
+/* desktop screen */
+@media screen and (min-width:1280px) {
+
+    .hotel-first-card {
+        position: absolute;
+        top: -24px;
+        margin-top: 0;
+        left: 180px;
+    }
+}
+
+.section-about-hotel {
+    padding-top: 16px;
+    padding-bottom: 20px;
+
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .section-about-hotel {
+        padding-top: 120px;
+        padding-bottom: 32px;
+
+    }
+}
+
+/* desktop screen */
+@media screen and (min-width:1280px) {
+
+    .section-about-hotel {
+        padding-bottom: 50px;
+        
+    }
+}
+
+/* Slider */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    width: 100%;
+    margin-left: auto;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider .slider__item {
+    opacity: 0.5;
+    margin: 20px;
+
+}
+
+.slider .slider__item.slick-center {
+    opacity: 1;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    cursor: pointer;
+    font-size: 25px;
+    color: #330867;
+    padding: 3px 10px;
+    bottom: -50px;
+    background-size: contain;
+    width: 32px;
+    background-repeat: no-repeat;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.slider .slick-prev {
+    right: 70px;
+    background-image: url(../../img/about-restaurant-images/arrow-left.svg);
+}
+
+.slider .slick-next {
+    right: 0px;
+    background-image: url(../../img/about-restaurant-images/arrow-right.svg);
+}

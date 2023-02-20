@@ -1,3 +1,4 @@
+@import url('./base/variables');
 @import url('./main-page/header.css');
 @import url('./main-page/hero.css');
 @import url('./main-page/about-our-hotel.css');
@@ -6,3 +7,6 @@
 @import url('./main-page/details-of-our-hotel.css');
 @import url('./main-page/details-of-our-restaurant.css');
 @import url('./main-page/footer');
+@import url('./modals/book-table-modal.css');
+@import url('./modals/book-room-modal.css');
+@import url('./modals/room-price-modal.css');

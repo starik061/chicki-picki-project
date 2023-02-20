@@ -23,4 +23,7 @@
   --grey-secondary-description-color: #bababa;
   --grey-address-color: #828282;
   --placeholder-color: #808080;
+
+  --transition-dur: 250ms;
+  --transition-func: cubic-bezier(0.4, 0, 0.2, 1);
 }
