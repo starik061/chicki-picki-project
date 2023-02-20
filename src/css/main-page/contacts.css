@@ -269,9 +269,9 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 1023px) {
   .map--container {
-    max-width: 535px;
+    max-width: 384px;
     width: 100%;
     height: 220px;
     border-radius: 2px;
