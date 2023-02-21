@@ -142,30 +142,34 @@ footer {
     border-radius: 2px;
   }
 }
-@media (min-width: 1024px) {
-  .network--item:first-child {
-    justify-content: flex-end;
-    margin-bottom: 12px;
-  }
-}
-
-.network--item:nth-child(2) {
-  justify-content: flex-end;
-}
-
-.network--item:last-child {
-  justify-content: space-between;
-}
 
 .network--link {
   display: flex;
-  gap: 15px;
+  align-items: center;
   justify-items: center;
 }
 
 @media (max-width: 1023px) {
   .network--name {
     display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .network--icon__instagram {
+    margin-left: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .network--icon__facebook {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .network--icon__telegram {
+    margin-left: 18px;
   }
 }
 
