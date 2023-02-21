@@ -173,22 +173,10 @@ img {
     .restaurant-first-card {
         position: absolute;
             top: -32px;
-            left: 512px;
+            left: 50%;
             margin-top: 0;
         
        
-    }
-}
-
-@media screen and (min-width:1100px) {
-
-    .restaurant-first-card {
-        position: absolute;
-        top: -32px;
-        left: 600px;
-        margin-top: 0;
-
-
     }
 }
 
@@ -199,20 +187,8 @@ img {
         
        position: absolute;
        top: -32px;
-       left: 640px;
+       left: 50%;
        margin-top: 0;
-    }
-}
-
-/* Desktop screen */
-@media screen and (min-width:1350px) {
-
-    .restaurant-first-card {
-
-        position: absolute;
-        top: -32px;
-        left: 770px;
-        margin-top: 0;
     }
 }
 
