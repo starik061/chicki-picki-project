@@ -1,3 +1,5 @@
+
+
 .hero-section-room {
     height: 740px;
     padding-bottom: 14px;
@@ -40,6 +42,13 @@ screen and (min-resolution: 2dppx) and (max-width: 414px) {
     line-height: 1.25;
     letter-spacing: 0.01em;
     color: var(--white-address-color);
+    transition: border-color var(--transition-dur) var(--transition-func), color var(--transition-dur) var(--transition-func);
+}
+
+.hero-link-adress:hover,
+.hero-link-adress:focus {
+    border-color: var(--brown-color);
+    color: var(--yellow-color)
 }
 
 
@@ -48,6 +57,7 @@ screen and (min-resolution: 2dppx) and (max-width: 414px) {
     height: 20px;
     fill: var(--yellow-color);
     flex-shrink: 0;
+    transition: fill var(--transition-dur) var(--transition-func);
 }
 
 .hero-wrapper {
@@ -95,10 +105,11 @@ screen and (min-resolution: 2dppx) and (max-width: 414px) {
     letter-spacing: 0.02em;
     color: var(--yellow-color);
     transform: translateY(-60%);
+    transition: background-color var(--transition-dur) var(--transition-func), border-color var(--transition-dur) var(--transition-func);
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero-room-button:hover,
+.hero-room-button:focus {
     background-color: var(--white-color);
     border-color: var(--yellow-color);
 }
@@ -117,13 +128,39 @@ screen and (min-resolution: 2dppx) and (max-width: 414px) {
 .hero-social-icon {
     fill: var(--yellow-color);
     display: block;
+    transition: fill var(--transition-dur) var(--transition-func);
+}
+
+.hero-social-link:hover .hero-social-icon,
+.hero-social-link:focus .hero-social-icon {
+    fill: var(--brown-color);
+}
+
+.hotel-icon-left,
+.hotel-icon-right {
+    display: block;
+    fill: var(--yellow-color);
+    transition: fill var(--transition-dur) var(--transition-func);
+
+}
+
+.hero-hotel-link-arrow:hover .hotel-icon-left,
+.hero-hotel-link-arrow:focus .hotel-icon-left,
+.hero-hotel-link-arrow:hover .hotel-icon-right,
+.hero-hotel-link-arrow:focus .hotel-icon-right {
+    fill : var(--white-color)
+}
+
+.hero-hotel-arrow-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media screen and (max-width: 375px) {
     .hero-section-room {
         padding-top: 88px;
     }
-
 
 }
 
@@ -154,6 +191,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1025px) {
         background-image: url('../../img/hero-img/hero-bg-hotel-desk@2x.jpg');
     }
 }
+
 @media screen and (max-width:1023px) {
     .hero-link-adress-bottom {
         display: none;
@@ -174,7 +212,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1025px) {
     
     .hero-link-adress-top{
         display: none;
-       
     }
 
     .hero-link-adress {
@@ -211,6 +248,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1025px) {
     .hero-room-social-list {
         flex-direction: row;
     }
+
+    .hero-hotel-arrow-wrapper {
+        margin-bottom: 88px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -228,4 +269,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1025px) {
         margin-bottom: 0;
     }
 
+    .hero-hotel-arrow-wrapper {
+        margin-bottom: 72px;
+    }
+        
 }

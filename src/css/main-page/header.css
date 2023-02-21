@@ -7,6 +7,7 @@
 /* =========================================== */
 
 .header-section {
+    z-index: 1;
     position: absolute;
     width: 100%;
     padding-top: 16px;
@@ -19,6 +20,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+
 
 .page-nav-list {
     flex-wrap: wrap;
@@ -36,6 +39,12 @@
     line-height: 1.08;
     letter-spacing: 0.3em;
     color: var(--white-color);
+    transition: color var(--transition-dur) var(--transition-func);
+}
+
+.page-nav-logo:hover,
+.page-nav-logo:focus {
+    color: var(--brown-color);
 }
 
 .page-nav-link {
@@ -44,10 +53,32 @@
     line-height: 1.25;
     letter-spacing: 0.02em;
     color: var(--yellow-color);
+    transition: color var(--transition-dur) var(--transition-func); 
+}
+
+.page-nav-link:hover,
+.page-nav-link:focus {
+    color: var(--brown-color);
 }
 
 .nav-icon {
-    fill: var(--yellow-color)
+    fill: var(--yellow-color);
+    transition: fill var(--transition-dur) var(--transition-func);
+}
+
+.page-nav-tel-link:hover .nav-icon,
+.page-nav-tel-link:focus .nav-icon {
+    fill: var(--brown-color);
+}
+
+.page-nav-contacts {
+    color: var(--white-color);
+    transition: color var(--transition-dur) var(--transition-func);
+}
+
+.page-nav-contacts:hover,
+.page-nav-contacts:focus {
+    color: var(--brown-color)
 }
 
 @media screen and (max-width: 1023px) {
@@ -86,7 +117,8 @@
         border-radius: 2px;
         padding: 8px;
         margin-left: 32px;
-    }
+        };
+    
 
     .page-nav-contacts {
         font-family: 'Montserrat';
@@ -94,6 +126,8 @@
         line-height: 1.21;
         color: var(--white-color);
     }
+
+
 }
 
 @media screen and (min-width: 1280px ) {
@@ -117,6 +151,12 @@
 
     .header-social-icon {
         display: block;
-        fill: var(--yellow-color)
+        fill: var(--yellow-color);
+        transition: fill var(--transition-dur) var(--transition-func);
+    }
+
+    .header-social-link:hover .header-social-icon,
+    .header-social-link:focus .header-social-icon {
+        fill: var(--brown-color);
     }
 }
