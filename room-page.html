@@ -19,7 +19,7 @@
     
     <script type="module" crossorigin src="/chicki-picki-project/assets/open-modal-7ce963fb.js"></script>
     <link rel="stylesheet" href="/chicki-picki-project/assets/open-modal-2a04a4f9.css">
-    <link rel="stylesheet" href="/chicki-picki-project/assets/room-page-c92fd741.css">
+    <link rel="stylesheet" href="/chicki-picki-project/assets/room-page-333e012d.css">
   </head>
   <body>
     <header class="header-section">
@@ -418,6 +418,123 @@
 </section>
 
     
+<section
+  class="section-modal-room modal hide"
+  id="modal3"
+  style="display: none"
+>
+  <div class="book-room-modal modal-content">
+    <div class="block-close-room">
+      <button
+        type="button"
+        class="modal-room-close close"
+        data-modal-target="modal3"
+      >
+        <svg>
+          <use href="/chicki-picki-project/assets/icons-1d33e216.svg#icon-close-modal-tabel"></use>
+        </svg>
+      </button>
+    </div>
+
+    <form class="book-room-form">
+
+      <div class="main-block-modal-room">
+        <p class="title-room-mod">Забронювати номер</p>
+
+
+        <ul class="book-room-list">
+
+<!-- --------Ліва сторона вікон----- -->
+          <li class="book-room-item">
+            <div class="book-room-item">
+              <input
+                type="text"
+                name="name"
+                id="name-of-customers"
+                class="book-room-inpu"
+                placeholder="Ваше ім’я"
+                required
+              />
+              <div>
+                <label class="sub-text-room" for="name-of-customers"
+                  >На кого забронювати столик?</label
+                >
+              </div>
+            </div>
+
+            <div class="custom-select-room opacity">
+            </div>
+            <div class="book-tablet-sub-room">
+              <label class="opacity" for=""
+                >На яку дату бронювати?</label
+              >
+            </div>
+            
+            <div class="custom-select-room">
+              <select name="date" id="book-date">
+                <option value="today">Сьогодні</option>
+                <option value="tomorow">Завтра</option>
+                <option value="after tomorow">Післязавтра</option>
+              </select>
+            </div>
+            <div class="book-tablet-sub-room">
+              <label class="sub-text-room" for="date-of-order"
+                >Дата заїзду</label
+              >
+            </div>
+
+          </li>
+<!-- --------Права сторона вікон----- -->
+          <li class="book-room-item">
+
+            <div class="book-room-item">
+              <div>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  class="book-room-inpu"
+                  placeholder="+38 (___) ___-__-__"
+                  required
+                />
+                <div>
+                  <label class="sub-text-room" for="phone">Номер телефону</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="custom-select-room">
+              <select name="table" id="size-tabel">
+                <option value="1">Двомісний люкс</option>
+                <option value="2">Трьохмісний номер</option>
+                <option value="3">Трьохмісний номер</option>
+              </select>
+            </div>
+            <div class="book-tablet-sub-room">
+              <label class="sub-text-room" for="size-table"
+                >Категорія номеру</label
+              >
+            </div>
+
+            <div class="custom-select-room">
+              <select name="date" id="book-date">
+                <option value="today">Сьогодні</option>
+                <option value="tomorow">Завтра</option>
+                <option value="after tomorow">Післязавтра</option>
+              </select>
+            </div>
+            <div class="book-tablet-sub-room">
+              <label class="sub-text-room" for="date-of-order"
+                >Дата виїзду</label
+              >
+            </div>
+          </li>
+        </ul>
+        <button type="submit" class="make-book-room">Оформити бронювання</button>
+      </div>
+    </form>
+  </div>
+</section>
     <section
   class="section-modal-book-table-price modal hide"
   id="modal2"
