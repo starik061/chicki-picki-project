@@ -168,7 +168,7 @@
         position: absolute;
         top: -24px;
         margin-top: 0;
-        left: 180px;
+        left: 14%;
     }
 }
 
@@ -200,12 +200,12 @@
 
 /* Slider */
 
-.wrapper {
+.wrapper-hotel {
     display: flex;
     flex-direction: column;
     max-width: 550px;
     width: 100%;
-    margin-left: auto;
+    /* margin-right: 50%; */
    
     
 }
