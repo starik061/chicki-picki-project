@@ -4,6 +4,9 @@
   background-color: var(--secondary-background-color);
 }
 
+.slider-photo {
+  overflow-x: hidden;
+}
 @media screen and (min-width: 1024px) {
   .room-description.reverse-section {
     flex-direction: row-reverse;
