@@ -234,12 +234,39 @@ img {
     position: relative;
 }
 
+/* Mobile screen */
 .slider .slider__item {
     opacity: 0.5;
-    margin: 0;
-    padding-bottom: 36px;
-    
+    margin: 20px;
 
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .slider .slider__item {
+        opacity: 0.5;
+        margin: 0;
+        padding-bottom: 36px;
+        
+
+    }
+}
+/* Desktop screen */
+@media screen and (min-width:1280px) {
+
+    .slider .slider__item {
+        opacity: 0.5;
+        margin: 0;
+        padding-bottom: 36px;
+        
+
+    }
+
+}
+
+.slider .slider__item.slick-center {
+    opacity: 1;
 }
 
 .slider .slick-arrow {
@@ -268,14 +295,33 @@ img {
     background-image: url(../../img/about-restaurant-images/arrow-right.svg);
 }
 
-.slick-next , .slick-prev {
+.slick-next,
+.slick-prev {
     top: 100%
 }
 
 .slick-prev {
-   left: 470px;
+   left: auto;
 }
 
+/* tablet screen */
+@media screen and (min-width:1024px) {
 
+    .slick-prev {
+    left: 470px;
+
+
+    }
+}
+/* Desktop screen */
+@media screen and (min-width:1280px) {
+
+    .slick-prev {
+    left: 470px;
+
+
+    }
+
+}
 
 
