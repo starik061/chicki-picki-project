@@ -137,10 +137,9 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  flex-grow: 1;
   width: 100%;
   max-width: 260px;
-  padding: 11px 8px 9px 2px;
+  padding: 9px 8px 7px 8px;
   font-family: 'Montserrat';
   font-style: normal;
   font-size: 14px;
@@ -153,7 +152,7 @@
 .contacts--tel__rest {
   display: flex;
   align-items: center;
-  padding: 11px 8px 9px 2px;
+  padding: 9px 8px 7px 8px;
   font-family: 'Montserrat';
   font-style: normal;
   font-size: 14px;
@@ -184,13 +183,13 @@
 }
 
 .contacts--tel__second {
-  margin-left: auto;
+  margin-left: 11px;
 }
 
 .contacts--location {
   display: flex;
   align-items: center;
-  padding: 8px 33px 7px 4px;
+  padding: 8px 33px 7px 10px;
   width: 100%;
   font-family: 'Montserrat';
   font-style: normal;
@@ -243,7 +242,7 @@
 
 @media (min-width: 1024px) {
   .contacts--item:first-child {
-    max-width: 144px;
+    max-width: fit-content;
     margin-bottom: 24px;
   }
 }
@@ -302,9 +301,10 @@
 .contacts--icon {
   display: flex;
   flex-shrink: 0;
-  margin-right: 14px;
+  margin-right: 8px;
 }
 
-.contacts--icon:last-child {
-  margin-right: 16px;
+.contacts--icon__location {
+  margin-right: 10px;
+  flex-shrink: 0;
 }
