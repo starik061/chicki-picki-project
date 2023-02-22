@@ -160,7 +160,7 @@
 
   .details-hotel-logo {
     margin-bottom: 16px;
-    margin-right: -3%;
+    margin-right: -2%;
 
     font-size: 64px;
     line-height: 1.08;
@@ -248,5 +248,6 @@
 
   .details-hotel-list {
     margin-right: 24.1%;
-  }
-}
+  } 
+  
+} 
