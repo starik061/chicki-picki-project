@@ -81,7 +81,7 @@
 
   background-color: var(--main-background-color);
 }
-@media (max-height: 700px) {
+@media (max-height: 770px) {
   .book-room-modal {
     top: 15px;
     transform: translate(-50%, 0);
