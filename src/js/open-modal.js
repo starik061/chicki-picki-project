@@ -18,7 +18,7 @@
     const modalTarget = $(this).data("modal-target");
      const $modal = $("#" + modalTarget);
      const $modalContent = $(".modal-content", $modal);
-     $body.css("overflow", "auto");
+     $body.css("overflow", "overlay");
 
      $modalContent.removeClass("show").addClass("hide");
      setTimeout(function() {

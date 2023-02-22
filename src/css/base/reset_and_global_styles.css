@@ -45,6 +45,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   background-color: var(--main-background-color);
+  overflow: overlay;
 }
 
 .visually-hidden {
