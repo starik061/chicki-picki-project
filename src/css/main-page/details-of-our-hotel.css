@@ -71,7 +71,7 @@
   }
 
   .details-hotel-list {
-    margin-left: 0;
+    margin-left: -4%;
     margin-bottom: 80px;
     padding-right: 9.6%;
   }
@@ -181,6 +181,7 @@
   }
 
   .details-hotel-list {
+    margin-left: 0;
     padding-right: 0;
     margin-right: 28.5%;
   }
