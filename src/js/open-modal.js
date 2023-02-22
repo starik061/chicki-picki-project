@@ -2,6 +2,7 @@
   const $openModalBtns = $(".open-modal-btn");
    const $modals = $(".modal");
    const $closeBtns = $(".close");
+   const $body = $("body");
 
    $openModalBtns.on("click", function() {
      const modalTarget = $(this).data("modal-target");
@@ -9,6 +10,7 @@
      const $modalContent = $(".modal-content", $modal);
 
      $modal.css("display", "block");
+     $body.css("overflow", "hidden");
      $modalContent.removeClass("hide").addClass("show");
    });
 
@@ -16,6 +18,7 @@
     const modalTarget = $(this).data("modal-target");
      const $modal = $("#" + modalTarget);
      const $modalContent = $(".modal-content", $modal);
+     $body.css("overflow", "auto");
 
      $modalContent.removeClass("show").addClass("hide");
      setTimeout(function() {
