@@ -53,9 +53,21 @@
   margin-top: 16px;
 }
 
+.menu-pro-title-menu {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--black-color);
+  margin-bottom: 20px;
+ 
+}
+
 .giv {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 16px;
 }
 
 .giv-list {
@@ -128,7 +140,7 @@
 .menu-divi {
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
+  align-items: flex-start;
 }
 
 .menu-button-div {
@@ -214,7 +226,9 @@
   .menu-button {
     margin-top: 54px;
   }
-  
+  .giv {
+    margin: 0;
+  }
 }
 
 @media (min-width: 1280px) {
