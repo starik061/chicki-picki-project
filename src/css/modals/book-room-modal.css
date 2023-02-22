@@ -30,6 +30,7 @@
   position: fixed;
   background-color: var(--hero-background-color);
   z-index: 10;
+  overflow-y: scroll;
 }
 
 .main-block-modal-room {
@@ -80,7 +81,12 @@
 
   background-color: var(--main-background-color);
 }
-
+@media (max-height: 700px) {
+  .book-room-modal {
+    top: 15px;
+    transform: translate(-50%, 0);
+  }
+}
 @media (min-width: 414px) {
   .book-room-modal {
     width: 384px;
