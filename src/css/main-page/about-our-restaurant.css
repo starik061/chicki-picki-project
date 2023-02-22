@@ -339,6 +339,7 @@ img {
     position: relative;
     min-height: 194px;
     margin-bottom: 20px;
+    margin-top: 32px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -348,10 +349,12 @@ img {
 }
 
 .slider-photo-list {
-    position: absolute;
+    position: relative;
     display: flex;
-    left: -120px;
+    left: 84px;
 }
+
+
 
 @media screen and (min-width: 1024px) {
     .slider-photo-list {
@@ -360,12 +363,9 @@ img {
     }
 }
 
-.slider-photo-item {
-    flex-shrink: 0;
-}
-
 .slider-photo-item:not(:last-child) {
     margin-right: 15px;
+    
 }
 
 @media screen and (min-width: 1024px) {
