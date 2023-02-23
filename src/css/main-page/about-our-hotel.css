@@ -335,7 +335,7 @@
 @media screen and (min-width:320px) {
 
     .slider-hotel-block {
-        display: flex;
+        margin-left: -45%;
         margin-top: 32px;
         margin-bottom: 20px;
         
@@ -362,7 +362,7 @@
 
 /* Зміщуємо друге зображення слайдеру вправо , за межі контейнеру */
 .first-slider-item {
-    margin-left: -45%;
+    /* margin-left: -45%; */
     overflow-x: hidden;
     object-fit: cover;
 
