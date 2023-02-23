@@ -338,6 +338,8 @@
         margin-left: -45%;
         margin-top: 32px;
         margin-bottom: 20px;
+        overflow-x: hidden;
+            object-fit: cover;
         
       
      
