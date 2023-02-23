@@ -226,7 +226,7 @@
 
 /* Slider */
 
-.wrapper-hotel {
+/* .wrapper-hotel {
     display: flex;
     flex-direction: column;
     max-width: 550px;
@@ -234,20 +234,20 @@
     margin-right: 50%;
    
     
-}
+} */
 
-.slider {
+/* .slider {
     position: relative;
-}
+} */
 /* Mobile screen */
-.slider .slider__item {
+/* .slider .slider__item {
     opacity: 0.5;
     margin: 20px;
 
-}
+} */
 
 /* tablet screen */
-@media screen and (min-width:1024px) {
+/* @media screen and (min-width:1024px) {
 
     .slider .slider__item {
         opacity: 0.5;
@@ -256,9 +256,9 @@
         
 
     }
-}
+} */
 /* Desktop screen */
-@media screen and (min-width:1280px) {
+/* @media screen and (min-width:1280px) {
 
     .slider .slider__item {
         opacity: 0.5;
@@ -307,19 +307,19 @@
 
 .slick-prev {
    left: auto;
-}
+} */
 
 /* tablet screen */
-@media screen and (min-width:1024px) {
+/* @media screen and (min-width:1024px) {
 
     .slick-prev {
     left: 470px;
 
 
     }
-}
+} */
 /* Desktop screen */
-@media screen and (min-width:1280px) {
+/* @media screen and (min-width:1280px) {
 
     .slick-prev {
     left: 470px;
@@ -327,7 +327,7 @@
 
     }
 
-}
+} */
 
 /* Slider */
 
@@ -337,7 +337,8 @@
     .slider-hotel-block {
         margin-top: 32px;
         margin-bottom: 20px;
-        margin-right: auto;
+       margin-right: -70%;
+     
         
     }
 }
@@ -354,7 +355,7 @@
 /* Позиціонуємо список зображень слайдеру  */
 .slider-list-hotel {
     display: flex;
-    grid-gap: 20px;
+    grid-gap: 25px;
 }
 
 /* Зміщуємо друге зображення слайдеру вправо , за межі контейнеру */
