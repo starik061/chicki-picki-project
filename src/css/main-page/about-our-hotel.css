@@ -338,6 +338,7 @@
         margin-top: 32px;
         margin-bottom: 20px;
         margin-right: auto;
+        
     }
 }
 
@@ -346,18 +347,19 @@
     .slider-hotel-block {
         margin-top: 32px;
         margin-bottom: 20px;
-       margin-right: 20%;
+       margin-right: -20%;
+       
     }
 }
 /* Позиціонуємо список зображень слайдеру  */
-.slider-list {
+.slider-list-hotel {
     display: flex;
-    grid-gap: 25px;
+    grid-gap: 20px;
 }
 
 /* Зміщуємо друге зображення слайдеру вправо , за межі контейнеру */
 .first-slider-item {
-    margin-left: -80%;
+    margin-left: -45%;
     overflow-x: hidden;
     object-fit: cover;
 
