@@ -335,6 +335,8 @@
 @media screen and (min-width:320px) {
 
     .slider-hotel-block {
+        display: flex;
+        justify-content: end;
         margin-top: 32px;
         margin-bottom: 20px;
         
@@ -366,7 +368,7 @@
     object-fit: cover;
 
 }
-
+/* Позиціонування кнопок слайдеру */
 .slider-arrow-hotel {
     display: flex;
     justify-content: start;
