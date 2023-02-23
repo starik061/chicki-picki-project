@@ -175,6 +175,9 @@
 
 
 @media (min-width: 414px) {
+  .main-container {
+      width: 414px;
+  }
   .menu-name {
     width: 225px;
   }
@@ -229,6 +232,10 @@
 }
 
 @media (min-width: 1280px) {
+  .main-container {
+      width: 1140px;
+  }
+
   .menu {
     padding-bottom: 60px;
     background-color: var(--secondary-background-color);
