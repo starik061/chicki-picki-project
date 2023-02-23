@@ -334,10 +334,10 @@
 /* Задаємо марджини для блоку слайдера(верхній та нижній) */
 @media screen and (min-width:320px) {
 
-    .slider-restaurant-block {
+    .slider-hotel-block {
         margin-top: 32px;
         margin-bottom: 20px;
-        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -357,15 +357,15 @@
 
 /* Зміщуємо друге зображення слайдеру вправо , за межі контейнеру */
 .first-slider-item {
-    margin-left: -45%;
+    margin-left: -80%;
     overflow-x: hidden;
     object-fit: cover;
 
 }
 
-.slider-arrow-restaurant {
+.slider-arrow-hotel {
     display: flex;
-    justify-content: end;
+    justify-content: start;
     grid-gap: 32px;
 }
 
