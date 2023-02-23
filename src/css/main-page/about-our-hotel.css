@@ -330,88 +330,30 @@
 }
 
 /* Slider */
-@media screen and (min-width: 1024px) {
-    .general-container-hotel {
-        display: flex;
-        justify-content: flex-start;
-        margin-top: -118px;
-    }
-}
 
-.slider-photo {
-    position: relative;
-    min-height: 194px;
+/* Задаємо марджини для блоку слайдера(верхній та нижній) */
+.slider-restaurant-block {
+    margin-top: 32px;
     margin-bottom: 20px;
+    margin-left: 20%;
 }
 
-@media screen and (min-width: 1024px) {
-    .slider-photo {
-        margin-bottom: 32px;
-    }
-}
-
-.slider-photo-list {
-    position: absolute;
+/* Позиціонуємо список зображень слайдеру  */
+.slider-list {
     display: flex;
-    left: -120px;
+    grid-gap: 25px;
 }
 
-@media screen and (min-width: 1024px) {
-    .slider-photo-list {
-        position: relative;
-        left: auto;
-    }
+/* Зміщуємо друге зображення слайдеру вправо , за межі контейнеру */
+.second-slider-item {
+    margin-right: -45%;
+    overflow-x: hidden;
+    object-fit: cover;
+
 }
 
-.slider-photo-item {
-    flex-shrink: 0;
-}
-
-.slider-photo-item:not(:last-child) {
-    margin-right: 15px;
-}
-
-@media screen and (min-width: 1024px) {
-    .slider-photo-item:not(:last-child) {
-        margin-right: 40px;
-    }
-}
-
-.slider-photo-img {
-    width: 194px;
-    height: 194px;
-    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
-    border-radius: 2px;
-}
-
-@media screen and (min-width: 1280px) {
-    .slider-photo-img {
-        width: 254px;
-        height: 254px;
-    }
-}
-
-.slider-arrow-hotel {
-    margin-bottom: 20px;
-}
-
-@media screen and (min-width: 1024px) {
-    .slider-arrow-hotel {
-        display: flex;
-        justify-content: flex-start;
-        margin-bottom: 0;
-    }
-}
-
-.slider-arrow-button:not(:last-child) {
-    margin-right: 32px;
-}
-
-.slider-photo-item {
-    flex-shrink: 0;
-}
-
-.slider-arrow.reverse-section {
+.slider-arrow-restaurant {
     display: flex;
     justify-content: end;
+    grid-gap: 32px;
 }

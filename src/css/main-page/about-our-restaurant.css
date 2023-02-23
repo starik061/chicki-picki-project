@@ -331,6 +331,7 @@ img {
 .slider-restaurant-block {
     margin-top: 32px;
     margin-bottom: 20px;
+    margin-left: 20%;
 }
 /* Позиціонуємо список зображень слайдеру  */
 .slider-list {
@@ -340,5 +341,14 @@ img {
 
 /* Зміщуємо друге зображення слайдеру вправо , за межі контейнеру */
 .second-slider-item {
-    position: absolute;
+    margin-right: -45%;
+    overflow-x: hidden;
+    object-fit: cover;
+    
+}
+
+.slider-arrow-restaurant {
+    display: flex;
+    justify-content: end;
+    grid-gap:32px;
 }

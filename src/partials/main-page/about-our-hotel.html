@@ -107,36 +107,68 @@
     </div>
 
     <!-- Slider -->
-<div class="main-container general-container-hotel reverse-section">
-  <div class="img-container reverse-section">
-    <div class="slider-photo reverse-section">
-      <ul class="slider-photo-list reverse-section">
-        <li class="slider-photo-item reverse-section">
-          <img class="slider-photo-img first" srcset="
-                ./img/hotel-page-img/room-luxe-for-2-img/bathroom-slider-1@1x.jpg 1x,
-                ./img/hotel-page-img/room-luxe-for-2-img/bathroom-slider-1@2x.jpg 2x
-              " src="./img/hotel-page-img/room-luxe-for-2-img/bathroom-slider-1@1x.jpg" alt="Photo bathroom"
-            width="254" height="254" />
+    <div class="slider-restaurant-block">
+      <ul class="slider-list">
+        <li>
+          <picture>
+            <!-- Desktop screen -->
+            <source media="(min-width: 1280px)" srcset="
+                            ./img/about-restaurant-images/slide-1-desk-@1x.webp 1x,
+                            ./img/about-restaurant-images/slide-1-desk-@2x.webp 2x
+                          " type="image/webp" class="slide-item-desktop">
+    
+            <!-- Tablet screen -->
+            <source media="(min-width: 1024px)" srcset="
+                            ./img/about-restaurant-images/slide-1-tab-@1x.webp 1x,
+                            ./img/about-restaurant-images/slide-1-tab-@2x.webp 2x
+                          " type="image/webp" class="slide-item-tablet">
+    
+            <!-- Mobile screen -->
+            <source media="(min-width: 414px)" srcset="
+                            ./img/about-restaurant-images/slide-1-mob-@1x.webp 1x,
+                            ./img/about-restaurant-images/slide-1-mob-@2x.webp 2x
+                          " type="image/webp" class="slide-item-mobile">
+    
+            <img src="./img/about-restaurant-images/slide-1-desk-@1x.jpg" alt="restaurant hall" loading="lazy">
+          </picture>
         </li>
-        <li class="slider-photo-item reverse-section">
-          <img class="slider-photo-img" srcset="
-                ./img/hotel-page-img/room-luxe-for-2-img/cup-tea-slider-2@1x.jpg 1x,
-                ./img/hotel-page-img/room-luxe-for-2-img/cup-tea-slider-2@2x.jpg 2x
-              " src="./img/hotel-page-img/room-luxe-for-2-img/cup-tea-slider-2@1x.jpg" alt="Cup tea" width="254"
-            height="254" />
+        <li class="second-slider-item">
+          <picture>
+            <!-- Desktop screen -->
+            <source media="(min-width: 1280px)" srcset="
+                                      ./img/about-restaurant-images/slide-2-desk-@1x.webp 1x,
+                                      ./img/about-restaurant-images/slide-2-desk-@2x.webp 2x
+                                    " type="image/webp">
+    
+            <!-- Tablet screen -->
+            <source media="(min-width: 1024px)" srcset="
+                                      ./img/about-restaurant-images/slide-2-tab-@1x.webp 1x,
+                                      ./img/about-restaurant-images/slide-2-tab-@2x.webp 2x
+                                    " type="image/webp">
+    
+            <!-- Mobile screen -->
+            <source media="(min-width: 414px)" srcset="
+                                      ./img/about-restaurant-images/slide-2-mob-@1x.webp 1x,
+                                      ./img/about-restaurant-images/slide-2-mob-@2x.webp 2x
+                                    " type="image/webp">
+    
+            <img src="./img/about-restaurant-images/slide-2-desk-@1x.jpg" alt="restaurant hall" loading="lazy">
+          </picture>
         </li>
       </ul>
     </div>
 
-    <div class="slider-arrow-hotel reverse-section">
-      <button class="slider-arrow-button" type="button">
+
+    <!-- Кнопки слайдера -->
+    <div class="slider-arrow-restaurant">
+      <button type="button">
         <a class="" href="">
           <svg class="" width="32" height="32">
             <use href="./img/icons.svg#icon-slider-arrow-left"></use>
           </svg>
         </a>
       </button>
-      <button class="slider-arrow-button" type="button">
+      <button type="button">
         <a class="" href="">
           <svg class="" width="32" height="32">
             <use href="./img/icons.svg#icon-slider-arrow-right"></use>
@@ -144,7 +176,8 @@
         </a>
       </button>
     </div>
-  </div>
+    </div>
+    
     <!-- <div class="wrapper-hotel">
       <div class="slider">
         <div class="slider__item">
