@@ -337,6 +337,7 @@
     .slider-hotel-block {
         margin-top: 32px;
         margin-bottom: 20px;
+        
       
      
         
@@ -348,7 +349,7 @@
     .slider-hotel-block {
         margin-top: 32px;
         margin-bottom: 20px;
-       margin-right: 20%;
+       margin-right: -20%;
        
     }
 }
