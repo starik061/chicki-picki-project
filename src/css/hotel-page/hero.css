@@ -273,6 +273,7 @@
 }
 
 .hero-button {
+  min-width: 238px;
   padding-top: 14px;
   padding-right: 24px;
   padding-bottom: 14px;
@@ -329,6 +330,30 @@
 
   .hero-title {
     font-size: 70px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .hero-button-list {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 24px;
+  }
+
+  .hero-button-item:not(:last-child) {
+    margin-bottom:0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .hero-hotel-anchor {
+    display: none;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .hero-hotel-btn {
+    display: none;
   }
 }
 
