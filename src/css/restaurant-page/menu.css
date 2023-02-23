@@ -175,7 +175,7 @@
 
 
 @media (min-width: 414px) {
-  .main-container {
+  .menu-container {
     width: 414px;
   }
   .menu-name {
@@ -232,7 +232,7 @@
 }
 
 @media (min-width: 1280px) {
-  .main-container {
+  .menu-container {
     width: 1140px;
   }
 
