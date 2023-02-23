@@ -208,7 +208,7 @@
   letter-spacing: 0.01em;
   color: var(--white-address-color);
   transition: border-color var(--transition-dur) var(--transition-func),
-    color var(--transition-dur) var(--transition-func);
+  color var(--transition-dur) var(--transition-func);
 }
 
 .hero-link-adress:hover,
@@ -273,7 +273,6 @@
 }
 
 .hero-button {
-  display: inline-block;
   padding-top: 14px;
   padding-right: 24px;
   padding-bottom: 14px;
@@ -288,7 +287,12 @@
   letter-spacing: 0.02em;
   color: var(--yellow-color);
   transition: background-color var(--transition-dur) var(--transition-func),
-    border-color var(--transition-dur) var(--transition-func);
+  border-color var(--transition-dur) var(--transition-func);
+}
+
+.hero-button-anchor {
+  display: inline-block;
+  min-width: 240px;
 }
 
 .hero-button:hover,
@@ -336,7 +340,7 @@
   .hero-section-hotel {
     height: 720px;
     padding-bottom: 15px;
-    padding-top: 88px;
+    padding-top: 188px;
   }
 
   .hero-container {
@@ -349,6 +353,10 @@
     bottom: 50px;
     width: 285px;
     font-size: 16px;
+  }
+
+  .hero-wrapper {
+    margin: 0 0 145px;
   }
 
   .hero-title {
@@ -368,7 +376,7 @@
   }
 
   .hero-button-list {
-    margin: 0 0 25px 0;
+    margin: 0 0 21px 0;
     display: flex;
     align-items: center;
     gap: 40px;
@@ -381,10 +389,16 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+  .body_slides {
+      height: 700px;
+    }
+
   .hero-section {
+    height: auto;
     max-width: 1280px;
     margin: 0 auto;
-    padding-top: 64px;
+    padding-top: 164px;
     padding-bottom: 64px;
   }
 
