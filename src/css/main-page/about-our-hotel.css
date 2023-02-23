@@ -343,10 +343,10 @@
 
 @media screen and (min-width:414px) {
 
-    .slider-restaurant-block {
+    .slider-hotel-block {
         margin-top: 32px;
         margin-bottom: 20px;
-        margin-left: 20%;
+       margin-right: 20%;
     }
 }
 /* Позиціонуємо список зображень слайдеру  */
@@ -356,8 +356,8 @@
 }
 
 /* Зміщуємо друге зображення слайдеру вправо , за межі контейнеру */
-.second-slider-item {
-    margin-right: -45%;
+.first-slider-item {
+    margin-left: -45%;
     overflow-x: hidden;
     object-fit: cover;
 
