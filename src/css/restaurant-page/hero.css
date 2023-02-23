@@ -293,7 +293,7 @@
 
 .hero-button-anchor {
   display: inline-block;
-  width: 240px;
+  min-width: 240px;
 }
 
 .hero-button:hover,
@@ -386,6 +386,18 @@
 
   .hero-button-item:not(:last-child) {
     margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .hero-rest-anchor{
+    display: none;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .hero-rest-btn {
+    display: none;
   }
 }
 
