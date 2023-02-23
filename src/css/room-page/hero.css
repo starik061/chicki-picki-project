@@ -202,10 +202,11 @@ screen and (min-resolution: 2dppx) and (min-width: 1025px) {
     .hero-section-room {
         height: 720px;
         padding-bottom: 22px;
-        padding-top: 88px;
+        padding-top: 340px;
     }
 
     .hero-room-container {
+        height: auto;
         position: relative;
         justify-content: flex-end;
     }
@@ -258,6 +259,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1025px) {
     .hero-section-room {
         max-width: 1280px;
         margin: 0 auto;
+        padding-top: 412px;
         padding-bottom: 48px;
     }
 

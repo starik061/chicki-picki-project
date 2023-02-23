@@ -69,6 +69,7 @@
 
   .details-restaurant-list {
     margin-left: 0;
+    margin-right: -4%;
     margin-bottom: 80px;
     padding-left: 9.6%;
   }
@@ -210,6 +211,7 @@
 
   .details-restaurant-list {
     margin-left: 28.5%;
+    margin-right: 0;
     padding-left: 0;
   }
 

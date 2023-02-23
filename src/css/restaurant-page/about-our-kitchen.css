@@ -122,21 +122,10 @@
 
     .kitchen-first-card {
         position: absolute;
-            left: 512px;
+            left: 50%;
             top: -32px;
             margin-top: 0;
         
-
-    }
-}
-
-@media screen and (min-width:1100px) {
-
-    .kitchen-first-card {
-        position: absolute;
-        left: 600px;
-        top: -32px;
-
 
     }
 }
@@ -146,18 +135,8 @@
 
     .kitchen-first-card {
        position: absolute;
-       left: 640px;
+       left: 50%;
        top: -32px;
-
-    }
-}
-
-@media screen and (min-width:1350px) {
-
-    .kitchen-first-card {
-        position: absolute;
-        left: 770px;
-        top: -32px;
 
     }
 }
@@ -198,6 +177,7 @@
     max-width: 550px;
     width: 100%;
     margin-left: auto;
+ 
 }
 
 .slider {
@@ -223,6 +203,7 @@
     bottom: -50px;
     background-size: contain;
     width: 32px;
+    height: 32px;
     background-repeat: no-repeat;
     text-indent: 200%;
     white-space: nowrap;
@@ -239,3 +220,32 @@
     background-image: url(../../img/about-restaurant-images/arrow-right.svg);
 }
 
+.slick-next,
+.slick-prev {
+    top: 100%
+}
+
+.slick-prev {
+    left: auto;
+}
+
+/* tablet screen */
+@media screen and (min-width:1024px) {
+
+    .slick-prev {
+        left: 470px;
+
+
+    }
+}
+
+/* Desktop screen */
+@media screen and (min-width:1280px) {
+
+    .slick-prev {
+        left: 470px;
+
+
+    }
+
+}
